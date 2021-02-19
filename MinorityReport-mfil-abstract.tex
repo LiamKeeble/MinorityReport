@@ -1,0 +1,80 @@
+%%%%% Compile with XeLaTeX or LuaLaTeX and BibTeX %%%%%
+\documentclass[12pt,a4paper]{article}
+\usepackage[UKenglish]{babel} % Provides support for English ty­po­graph­i­cal and hyphen­ation rules
+\usepackage[margin=2.5cm]{geometry} % Provides margins
+\usepackage{unicode-math} % Provides support for fonts
+\setmainfont{Junicode} % Sets font for main text
+\setmathfont{Junicode} % Sets font for text in a maths environment
+\setmonofont{Courier New} % Sets font for any monospaced text (e.g. URLs)
+\sloppy % Relaxes rules for line breaks
+%\frenchspacing % Adjusts character spacing
+\linespread{1} % Adjusts line spacing
+\usepackage[hidelinks]{hyperref} % Hides coloured hyperlinks
+\usepackage[round]{natbib} % Provides bibliography management
+\bibpunct[:]{(}{)}{,}{a}{}{,} % Sets bibliography punctuation
+\setlength{\bibsep}{0em} % Gets rid of space between bibliography entries
+\usepackage{sectsty} % Provides changes for sizes of section headings
+\sectionfont{\normalsize} % Changes section headings to normal size
+\pagestyle{empty} % Removes any content in headers and footers
+\usepackage{float} % Provides options for table and figure placement
+\usepackage[labelfont=bf]{caption} % Set table and figure labels to bold
+\usepackage{booktabs} % Provides rules for tables
+\usepackage[dvipsnames]{xcolor}
+\newcommand\email[1]{{\tt\href{mailto:#1}{#1}}} % Creates e-mail environment
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=OliveGreen,
+    citecolor=blue
+}
+
+\newcommand{\citeposs}[1]{\citeauthor{#1}'s (\citeyear{#1})}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+	%%%%% Compile with XeLaTeX or LuaLaTeX and BibTeX %%%%%
+	\raggedbottom
+	\begin{center}
+		\textbf{Minority Report}\\
+		\vspace{0.5em}
+		\textit{Forename Surname, University or Institution (please, leave anonymous)}\\
+		\vspace{0.25em}
+		\email{forename.surname@university.ac.uk (please, leave anonymous)}
+	\end{center}
+	
+	The literature on variation and change in English is wide-ranging but tends to be clustered around particular varieties \citep{Trudgill2002}. Even \citeposs{Wells1982b} volume on Accents of the British Isles only has one chapter on the entirety of the North of England, with specific sections on only Merseyside and Tyneside English. This is part of a larger ongoing situation where there is greater academic understanding of some varieties, and indeed some languages, due to a larger body of research existing. We would like to investigate factors which affect whether a variety is more likely to be studied, particularly focusing on whether the presence of a university Linguistics department nearby increases the research output on a particular variety, amongst other factors.
+	
+	This paper sets out a novel methodology aiming to understand the current state of linguistic study across varieties of English spoken in England. We present research questions relating the location of English dialects and the extent to which they are studied in relation to centres of linguistic research, and outline methods proposed to answer them using bibliographic data, basic systematic review protocols and map data in R. 
+	
+	The final aim of the project is to answer the below questions. However, here we focus on outlining the approach for questions \ref{geog} and \ref{corpus}:
+	\begin{enumerate} 
+		\item Are English varieties that are geographically distant from linguistics university departments more likely to be understudied? \label{geog}
+		
+		\item Does the presence of a locally focused corpus increase the research output on a particular variety?  \label{corpus}
+		
+		\item Are English varieties associated with higher social/income status lacking in research articles? \label{income}
+		
+		\item Is more research conducted on varieties of English associated with suburban, metropolitan, or rural areas? \label{suburban}
+	\end{enumerate}
+
+
+	Linear models will be used to assess the above questions. Data to inform the models will be taken from online sources, using a mixture of online searches, automated geographical measures using R \citep{R2018} and google maps \citep{kahle2013ggmap}, and bibliographic measures from systematic literature searches. The outcome variable of models will be frequency of papers published on different varieties of English. Proximity to the nearest Linguistics department, the nearest university, the nearest institution with a Linguistics (or English Language) degree, and the nearest institution with a language variation and change or Sociolinguistics related research group will be treated as predictor variables in separate models assessing research question \ref{geog}. Whether or not a corpus exists for the variety will be assessed as a predictor of frequency of research papers in a linear model assessing question \ref{corpus}. Similarly, area income will be tested as a predictor in another model assessing question \ref{income}. Finally, proximity to a city centre and whether or not the variety is associated with a metropolitan area will be tested as predictors in separate models to address question \ref{suburban}.
+
+
+	Systematic searches will be conducted using the databases of several language variation and change journals. Results will be assessed by researchers as to whether they can be counted as a study of a particular variety of English and thus included as a data point.
+
+
+	All data, data generation code and statistical analysis code will be available on the Open Science Framework (\url{https://osf.io/h7t6x/?view_only=cd2a8bfd3e1d4a6ab958a6e08c0bced9}) in an attempt to demonstrate how open science can benefit the field of linguistics: This aims to demonstrate how making data and code from a study freely available and easily accessible can make the constraints and results from analysis clearer to fellow researchers. Not only does this mitigate misinterpretation of aims and results, but should also make a study replicable and make clear how future studies can take the design of the present study and adapt it for novel research.
+	
+	
+	Furthermore, while data collected for this study will be on varieties of English spoken in England, the methods of both data collection and analysis can be adapted for other varieties and languages, opening up a standardised way to assess research bias in the field of language variation and change.
+	
+	
+	
+	\renewcommand\bibname{References} % Change title of bibliography from `Bibliography' to `References'
+	\bibliographystyle{sp} % Specify bibliography style file
+	\bibliography{MinorityReferences} % Specify bibliography file
+\end{document}

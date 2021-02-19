@@ -1,0 +1,6 @@
+[submodule "tex-template"]
+	path = tex-template
+	url = https://github.com/mfil-uom/tex-template.git
+[submodule "mfil-tex-template"]
+	path = mfil-tex-template
+	url = https://github.com/mfil-uom/tex-template.git

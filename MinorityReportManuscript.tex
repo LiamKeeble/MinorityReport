@@ -1,0 +1,113 @@
+\documentclass[review]{elsarticle}
+
+\usepackage{lineno,hyperref,float,todonotes,xcolor}
+\modulolinenumbers[1]
+
+
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\newcommand{\CHcomment}[1]{\todo[color=magenta]{#1}}
+\newcommand{\LKcomment}[1]{\todo[color=cornflowerBlue]{#1}}
+\newcommand{\todostructure}[1]{\todo[color=thistle]{#1}}
+\newcommand{\todoreference}[1]{\todo[color=seaGreen]{#1}}
+\newcommand{\todocontent}[1]{\todo[color=royalPurple]{#1}}
+\newcommand{\todocontentinline}[1]{\todo[color=royalPurple,inline]{#1}}
+
+
+
+\bibliographystyle{elsarticle-num}
+
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Assessing research bias against English varieties: a systematic review}
+
+
+Liam Keeble$^{1}$ and Caitlin Halfacre$^{2}$
+
+
+$^{1}$Henry Wellcome Building, Medical School, Newcastle Upon Tyne, NE2 4HH, United Kingdom\\
+$^{2}$Percy Building, School of English Literature, Language and Linguistics, Newcastle University, Newcastle upon Tyne, NE1 7RU, United Kingdom\\
+
+\section*{Corresponding author}
+
+
+
+\begin{abstract}
+
+
+\end{abstract}
+
+\begin{keyword}
+Research bias \sep Bibliometrics \sep Sociolinguistics 
+\MSC[2010] 00-01\sep  99-00
+\end{keyword}
+
+\end{frontmatter}
+
+
+\linenumbers
+
+\section{Introduction}
+
+
+This paper will ask several questions: 
+
+
+\begin{itemize} 
+
+
+\item Are English varieties that are typically geographically distant from linguistics university departments understudied?
+
+\item Does the presence of a locally focused corpus increase the research output on a particular variety? 
+
+\item Are English varieties associated with higher social/income status lacking in research articles?
+
+\item Is most research conducted on varieties of English typically associated with suburban, as opposed to metropolitan or rural, areas?
+
+
+\end{itemize}
+
+
+\section{Methods}
+
+
+
+
+\subsection{Data extraction}
+Wikipedia will be used to categorise accents. If accents were defined by academic sources, there is a risk that under-studied accents would be missing from the dataset. Since we are trying to identify gaps in the research/academic literature, it becomes important to take a different approach to defining the varieties. Wikipedia is a community established encyclopedia, which provides us with an opportunity to use popular rather than academic definitions. (This could perhaps be viewed as a folk categorisation of varieties of English, and thus this study could be viewed as assessing how close linguistic research fully describes public opinion of the existence of certain varieties of English). The geographical area associated with English varieties will be ascertained from their Wikipedia entries also.
+
+Proximity will be measured using Google maps, and data will be gathered using the `mapdist' function from the ggmap r package \cite{kahle2013ggmap,R2018}. Proximity from the geographical area of the English variety to the nearest university, the nearest university with a Linguistics or English Language degree, the nearest sociolinguistics/language variation lab or research group, and the nearest linguistics department will all be measured and included in the dataset as separate variables. Information on the existence of research labs, linguistics departments and degrees will be found on university websites. Whether or not the variety has a corpus (ascertained from web searches), is typically associated with a metropolitan area (ascertained using Google maps; within x metres of a city centre), and the proximity of an English variety to a city centre (ascertained using google maps) will also be included. As will the area income (ascertained from web searches).
+
+Frequency of papers will be measured using the search protocol outlined in the following subsection. 
+
+\subsection{Search protocol}
+Searches will be conducted in Google Scholar, and will be repeated in the databases of several linguistics journals concerned with documenting language variation and change. These databases will include the database of the journal Language Variation and Change, 
+
+The search terms used will follow the formula, where `name of variety' would be replaced with the wikipedia entry name for the variety of English, e.g. `Geordie' and any alternative terms used for the same variety as suggested by wikipedia. The following searches will be conducted for each term found for each variety of English included in the study: \CHcomment{how do you think we should handle variation in terminology - e.g. Geordie vs. Tyneside English (though notably, this term variation is actually mentioned on the wiki page)}
+
+\begin{itemize}
+\item `name of variety' varia*
+\item `name of variety' sociolinguist*
+
+
+\end{itemize}
+
+Once all searches have been conducted, abstracts will be screened to assess whether they are emprical studies of variationist sociolinguistic phenomena. 
+
+
+
+\subsection{Statistical analysis}
+Linear models will be used to test all variables as predictors of frequency of publications. These models will be constructed using R \cite{R2018}.
+
+\section{Results}
+
+\section{Discussion}
+
+
+\bibliography{MinorityReferences}
+
+\end{document}
