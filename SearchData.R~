@@ -1,0 +1,30 @@
+
+
+library(bibliometrix)
+
+
+
+
+
+#Data sets from searches
+
+
+
+
+
+
+#Delete duplicates from datasets
+
+
+
+
+
+
+
+#Export datasets for PRISMA protocol
+
+
+
+
+
+

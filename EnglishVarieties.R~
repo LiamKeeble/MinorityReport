@@ -53,8 +53,3 @@ StatusMod2=glm(FreqPapers~AreaIncome, data=data, family=poisson)
 UrbanMod1=glm(FreqPapers~Metropolitan, data=data, family=poisson)
 
 UrbanMod2=glm(FreqPapers~ProximityToCityCentre, data=data, family=poisson)
-
-
-
-
-
