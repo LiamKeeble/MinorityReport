@@ -1,6 +1,6 @@
-\documentclass[review]{elsarticle}
+\documentclass[review]{article}
 
-\usepackage{lineno,hyperref,float,todonotes,xcolor}
+\usepackage{lineno,hyperref,float,todonotes,xcolor,harvard}
 \modulolinenumbers[1]
 
 
@@ -14,39 +14,25 @@
 \newcommand{\todocontent}[1]{\todo[color=royalPurple]{#1}}
 \newcommand{\todocontentinline}[1]{\todo[color=royalPurple,inline]{#1}}
 
-
-
-\bibliographystyle{elsarticle-num}
+\title{Assessing research bias against English varieties: a systematic review}
+\author{Caitlin Halfacre$^{2}$ and Liam Keeble$^{1}$}
+\date{$^{1}$Henry Wellcome Building, Medical School, Newcastle Upon Tyne, NE2 4HH, United Kingdom\\
+$^{2}$Percy Building, School of English Literature, Language and Linguistics, Newcastle University, Newcastle upon Tyne, NE1 7RU, United Kingdom\\}
 
 
 \begin{document}
 
-\begin{frontmatter}
-
-\title{Assessing research bias against English varieties: a systematic review}
 
 
-Liam Keeble$^{1}$ and Caitlin Halfacre$^{2}$
-
-
-$^{1}$Henry Wellcome Building, Medical School, Newcastle Upon Tyne, NE2 4HH, United Kingdom\\
-$^{2}$Percy Building, School of English Literature, Language and Linguistics, Newcastle University, Newcastle upon Tyne, NE1 7RU, United Kingdom\\
-
-\section*{Corresponding author}
+\maketitle
 
 
 
-\begin{abstract}
 
 
-\end{abstract}
 
-\begin{keyword}
-Research bias \sep Bibliometrics \sep Sociolinguistics 
-\MSC[2010] 00-01\sep  99-00
-\end{keyword}
 
-\end{frontmatter}
+\newpage
 
 
 \linenumbers
@@ -54,24 +40,22 @@ Research bias \sep Bibliometrics \sep Sociolinguistics
 \section{Introduction}
 
 
-This paper will ask several questions: 
-
-
-\begin{itemize} 
-
-
-\item Are English varieties that are typically geographically distant from linguistics university departments understudied?
-
-\item Does the presence of a locally focused corpus increase the research output on a particular variety? 
-
-\item Are English varieties associated with higher social/income status lacking in research articles?
-
-\item Is most research conducted on varieties of English typically associated with suburban, as opposed to metropolitan or rural, areas?
-
-
-\end{itemize}
-
-
+The literature on variation and change in English is wide-ranging but tends to be clustered around particular varieties \cite{Trudgill2002}. Even Wells' \cite{Wells1982b} volume on Accents of the British Isles only has one chapter on the entirety of the North of England, with specific sections on only Merseyside and Tyneside English. This is part of a larger ongoing situation where there is greater academic understanding of some varieties, and indeed some languages, due to a larger body of research existing. We would like to investigate factors which affect whether a variety is more likely to be studied, particularly focusing on whether the presence of a university Linguistics department nearby increases the research output on a particular variety, amongst other factors.
+	
+	This paper sets out a novel methodology aiming to understand the current state of linguistic study across varieties of English spoken in England. We present research questions relating the location of English dialects and the extent to which they are studied in relation to centres of linguistic research, and outline methods proposed to answer them using bibliographic data, basic systematic review protocols and map data in R. 
+	
+	The final aim of the project is to answer the below questions. However, here we focus on outlining the approach for questions \ref{geog} and \ref{corpus}:
+	\begin{enumerate} 
+		\item Are English varieties that are geographically distant from linguistics university departments more likely to be understudied? \label{geog}
+		
+		\item Does the presence of a locally focused corpus increase the research output on a particular variety?  \label{corpus}
+		
+		\item Are English varieties associated with higher social/income status lacking in research articles? \label{income}
+		
+		\item Is more research conducted on varieties of English associated with suburban, metropolitan, or rural areas? \label{suburban}
+	\end{enumerate}
+	
+	
 \section{Methods}
 
 
@@ -84,8 +68,8 @@ Proximity will be measured using Google maps, and data will be gathered using th
 
 Frequency of papers will be measured using the search protocol outlined in the following subsection. 
 
-\subsection{Search protocol}
-Searches will be conducted in Google Scholar, and will be repeated in the databases of several linguistics journals concerned with documenting language variation and change. These databases will include the database of the journal Language Variation and Change, 
+\subsection{Search protocol for papers}
+Searches will be conducted in Google Scholar, and will be repeated in the databases of several linguistics journals concerned with documenting language variation and change. These databases will include the database of the journal Language Variation and Change, The Journal of Sciolinguistics and Linguistics Vanguard.
 
 The search terms used will follow the formula, where `name of variety' would be replaced with the wikipedia entry name for the variety of English, e.g. `Geordie' and any alternative terms used for the same variety as suggested by wikipedia. The following searches will be conducted for each term found for each variety of English included in the study: \CHcomment{how do you think we should handle variation in terminology - e.g. Geordie vs. Tyneside English (though notably, this term variation is actually mentioned on the wiki page)}
 
@@ -96,20 +80,19 @@ The search terms used will follow the formula, where `name of variety' would be 
 
 \end{itemize}
 
-Once all searches have been conducted, abstracts will be screened to assess whether they are emprical studies of variationist sociolinguistic phenomena. Frequency of papers included in the final dataset for each variety of English will be included in the final analysis dataset. 
+Only a single term for each variety of English will be used in searches so as not to bias the variable `frequency of papers' in the process of literature searches.
+
+Once all searches have been conducted, abstracts will be screened to assess whether they are emprical studies of variationist sociolinguistic phenomena. Frequency of papers  from each search after all non-relevant studies have been removed will be included in the final analysis dataset. 
 
 
 
 \subsection{Statistical analysis}
 Linear models will be used to test all variables as predictors of frequency of publications. These models will be constructed using R \cite{R2018}.
 
-The most current available datasets and statistical analysis can be found on the Open Science Framework. 
-
-\section{Results}
-
-\section{Discussion}
+The most current available datasets and statistical analysis can be found on the Open Science Framework (https://osf.io/bp3es). 
 
 
-\bibliography{MinorityReferences}
+\bibliographystyle{agsm}
+\bibliography{MinorityReferences.bib}
 
 \end{document}
