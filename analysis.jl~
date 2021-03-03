@@ -7,9 +7,7 @@ using StatsPlots
 using Distributions
 using CSV
 using DataFrames
-using Random
 
-Random.seed!(123)
 
 
 #Dummy data
