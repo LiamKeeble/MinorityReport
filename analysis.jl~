@@ -17,7 +17,7 @@ Random.seed!(123)
 df=DataFrame(
 	geog=rand(Normal(0,1),200),
 	freqPub=rand(Poisson(30),200),
-	corpus=rand(BinomialLogit(1,0.8),200),
+	corp=rand(BinomialLogit(1,0.8),200),
 	income=rand(Normal(0,1),200)
 
 	)

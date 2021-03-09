@@ -80,11 +80,6 @@ chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 1000),
 display(chain)
 
 
-plot(chain)
-savefig("nearUni.png")
-
-
-
 
 #Proximity to nearest linguistics dept. as a predictor
 #Sample from prior
@@ -101,9 +96,6 @@ chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 1000),
 		 )
 display(chain)
 
-plot(chain)
-savefig("nearDept.png")
-
 
 
 #Proximity to nearest linguistics degree as a predictor
@@ -119,9 +111,6 @@ chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10),1000),
 		 1:4
 		 )
 display(chain)
-
-plot(chain)
-savefig("nearDegree.png")
 
 
 
@@ -140,9 +129,6 @@ chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 1000),
 		 )
 display(chain)
 
-plot(chain)
-savefig("nearLab.png")
-
 
 
 #Proximity to a city as a predictor as a predictor
@@ -160,8 +146,6 @@ chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 1000),
 		 )
 display(chain)
 
-plot(chain)
-savefig("nearCty.png")
 
 
 
@@ -180,8 +164,6 @@ chain=mapreduce(c->sample(bayesA(df.corp,df.freqPub), HMC(0.05,10), 1000),
 		 )
 display(chain)
 
-plot(chain)
-savefig("corp.png")
 
 
 #Area income as a predictor
@@ -199,8 +181,6 @@ chain=mapreduce(c->sample(bayesA(df.income,df.freqPub), HMC(0.05,10), 1000),
 		 )
 display(chain)
 
-plot(chain)
-savefig("income.png")
 
 
 
