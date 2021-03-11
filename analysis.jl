@@ -65,7 +65,7 @@ end;
 #Proximity to nearest university as a predictor
 
 #Sample from prior
-prior=mapreduce(c->sample(bayesA(df.geog,df.freqPub), Prior(), 1000),
+prior=mapreduce(c->sample(bayesA(df.geog,df.freqPub), Prior(), 10000),
 		 chainscat,
 		 1:4
 		 )
@@ -73,7 +73,7 @@ display(prior)
 
 
 #Sample from posterior
-chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 1000),
+chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 10000),
 		 chainscat,
 		 1:4
 		 )
@@ -83,14 +83,14 @@ display(chain)
 
 #Proximity to nearest linguistics dept. as a predictor
 #Sample from prior
-prior=mapreduce(c->sample(bayesA(df.geog,df.freqPub), Prior(), 1000),
+prior=mapreduce(c->sample(bayesA(df.geog,df.freqPub), Prior(), 10000),
 		 chainscat,
 		 1:4
 		 )
 display(prior)
 
 #Sample from posterior
-chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 1000),
+chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 10000),
 		 chainscat,
 		 1:4
 		 )
@@ -99,14 +99,14 @@ display(chain)
 
 
 #Proximity to nearest linguistics degree as a predictor
-prior=mapreduce(c->sample(bayesA(df.geog,df.freqPub), Prior(),1000),
+prior=mapreduce(c->sample(bayesA(df.geog,df.freqPub), Prior(),10000),
 		 chainscat,
 		 1:4
 		 )
 display(prior)
 
 #Sample from posterior
-chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10),1000),
+chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10),10000),
 		 chainscat,
 		 1:4
 		 )
@@ -116,14 +116,14 @@ display(chain)
 
 #Proximity to nearest research lab as predictor
 #Sample from prior
-prior=mapreduce(c->sample(bayesA(df.geog,df.freqPub), Prior(), 1000),
+prior=mapreduce(c->sample(bayesA(df.geog,df.freqPub), Prior(), 10000),
 		 chainscat,
 		 1:4
 		 )
 display(prior)
 
 #Sample from posterior
-chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 1000),
+chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 10000),
 		 chainscat,
 		 1:4
 		 )
@@ -133,14 +133,14 @@ display(chain)
 
 #Proximity to a city as a predictor as a predictor
 #Sample from prior
-prior=mapreduce(c->sample(bayesA(df.geog,df.freqPub), Prior(), 1000),
+prior=mapreduce(c->sample(bayesA(df.geog,df.freqPub), Prior(), 10000),
 		 chainscat,
 		 1:4
 		 )
 display(prior)
 
 #Sample from posterior
-chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 1000),
+chain=mapreduce(c->sample(bayesA(df.geog,df.freqPub), HMC(0.05,10), 10000),
 		 chainscat,
 		 1:4
 		 )
@@ -151,14 +151,14 @@ display(chain)
 
 #Corpus existence as a predictor 
 #Sample from prior
-prior=mapreduce(c->sample(bayesA(df.corp,df.freqPub), Prior(), 1000),
+prior=mapreduce(c->sample(bayesA(df.corp,df.freqPub), Prior(), 10000),
 		 chainscat,
 		 1:4
 		 )
 display(prior)
 
 #Sample from posterior
-chain=mapreduce(c->sample(bayesA(df.corp,df.freqPub), HMC(0.05,10), 1000),
+chain=mapreduce(c->sample(bayesA(df.corp,df.freqPub), HMC(0.05,10), 10000),
 		 chainscat,
 		 1:4
 		 )
@@ -168,14 +168,14 @@ display(chain)
 
 #Area income as a predictor
 #Sample from prior
-prior=mapreduce(c->sample(bayesA(df.income,df.freqPub), Prior(), 1000),
+prior=mapreduce(c->sample(bayesA(df.income,df.freqPub), Prior(), 10000),
 		 chainscat,
 		 1:4
 		 )
 display(prior)
 
 #Sample from posterior
-chain=mapreduce(c->sample(bayesA(df.income,df.freqPub), HMC(0.05,10), 1000),
+chain=mapreduce(c->sample(bayesA(df.income,df.freqPub), HMC(0.05,10), 10000),
 		 chainscat,
 		 1:4
 		 )
