@@ -249,6 +249,8 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemeMontpellier
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemeMontpellier.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemetree.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemetree.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemealbatross.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemealbatross.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT pres.aux
@@ -316,6 +318,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncms
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 OUTPUT pres.nav
 OUTPUT pres.toc
 OUTPUT pres.snm
@@ -325,4 +328,5 @@ INPUT ./pres.out
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
