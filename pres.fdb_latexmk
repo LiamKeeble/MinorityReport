@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1617198459 "pres.tex" "pres.pdf" "pres" 1617198460
+["pdflatex"] 1617198459 "pres.tex" "pres.pdf" "pres" 1617198575
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -191,10 +191,10 @@
   "pres.out" 1617198460 154 75357a78b7bdf65996f61a7a5eed39a5 "pdflatex"
   "pres.tex" 1617004068 3325 8ce8548a4a9fa4a43948e16a9bcbd7d5 ""
   (generated)
-  "pres.toc"
-  "pres.snm"
-  "pres.out"
-  "pres.log"
   "pres.nav"
   "pres.pdf"
+  "pres.log"
+  "pres.out"
+  "pres.toc"
+  "pres.snm"
   "pres.aux"
