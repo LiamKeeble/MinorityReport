@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage[round]{natbib} %citation package
+	\bibliographystyle{agsm}
+\usepackage[dvipsnames]{xcolor} %general colours
+\usepackage{todonotes} 
+\usepackage[margin=1in]{geometry}
+
+\hypersetup{
+	draft=true,
+	final=true,
+	colorlinks=true,
+	linktoc=all,
+	linkcolor=MidnightBlue,
+	citecolor=blue,
+	urlcolor=red
+	%	allcolors=black
+}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+
+\newcommand{\CHcomment}[1]{\todo[color=magenta]{#1}}
+\newcommand{\LKcomment}[1]{\todo[color=cornflowerBlue]{#1}}
+\newcommand{\todowording}[1]{\todo[color=Aquamarine]{#1}}
+\newcommand{\todostructure}[1]{\todo[color=Thistle]{#1}}
+\newcommand{\todoreference}[1]{\todo[color=SeaGreen]{#1}}
+\newcommand{\todocontent}[1]{\todo[color=RoyalPurple]{#1}}
+\newcommand{\todocontentinline}[1]{\todo[color=RoyalPurple,inline]{#1}}
+
+\title{Assessing research bias against English varieties: a systematic review}
+\author{Caitlin Halfacre$^{2}$ and Liam Keeble$^{1}$}
+\date{$^{1}$Henry Wellcome Building, Medical School, Newcastle Upon Tyne, NE2 4HH, United Kingdom\\
+$^{2}$Percy Building, School of English Literature, Language and Linguistics, Newcastle University, Newcastle upon Tyne, NE1 7RU, United Kingdom\\}
+
+
+\begin{document}
+\begin{center}
+	\textbf{Minority Report}\\
+\end{center}
+
+\todocontentinline{Current word count 398}
+The literature on variation and change in English is wide-ranging but tends to be clustered around particular varieties \cite{Trudgill2002}. Even Wells' \cite{Wells1982b} volume on Accents of the British Isles only has one chapter on the entirety of the North of England, with specific sections on only Merseyside and Tyneside English. This paper sets out a novel methodology aiming to understand some of the possible biases \todocontent{rework the intro to start with the idea of bias?} present in our approach to research specifically varieties of English spoken in England. Specifically we focus on sociophonetic studies in apparent time, that is, specifically, those which take as a dependent variable some phonetic feature, and as an independent variable age of speaker framed as apparent time to address sound change. Papers will be taken from 1982 (the publication \cite{Wells1982b} to 2019 inclusive).
+	
+The proposed research question is: which of the following factors affect a variety's likelihood of being studied:
+	\begin{itemize}
+		\item geographical distance from a university with a Linguistics department
+		\item presence of a locally focussed corpus
+		\item association with higher or lower social/income status
+		\item whether the area it is associated with is suburban, metropolitan, or rural
+	\end{itemize}
+	
+Linear models will be used to assess the above questions. Data to inform the models will be taken from online sources, bibliographic measures from systematic literature searches, manual coding for the various factors, and automated geographical measures using R \citep{R2018} and ggmaps with google maps \citep{kahle2013ggmap}. The outcome variable of models will be frequency of papers published on the varieties, with the predictors for the models being the factors stated above.
+	
+%	Systematic searches will be conducted using the databases of several language variation and change journals. Results will be assessed by researchers as to whether they can be counted as a study of a particular variety of English and thus included as a data point.
+All data, data generation code and statistical analysis code will be available on the Open Science Framework (\url{https://osf.io/h7t6x/?view_only=cd2a8bfd3e1d4a6ab958a6e08c0bced9}) in an attempt to demonstrate how open science can benefit the field of linguistics: This aims to demonstrate how making data and code from a study freely available and easily accessible can make the constraints and results from analysis clearer to fellow researchers. Not only does this mitigate misinterpretation of aims and results, but should also make a study replicable and make clear how future studies can take the design of the present study and adapt it for novel research.
+
+Furthermore, while data collected for this study will be on varieties of English spoken in England, the methods of both data collection and analysis can be adapted for other varieties and languages, opening up a standardised way to assess research bias in the field of language variation and change.
+\bibliography{MinorityReferences.bib}
+
+\end{document}
