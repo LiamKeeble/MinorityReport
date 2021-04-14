@@ -1,0 +1,22 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Kahle \harvardand\ Wickham}{2013}{kahle2013ggmap}
+Kahle, D. \harvardand\ Wickham, H.  \harvardyearleft 2013\harvardyearright ,
+  `ggmap: Spatial visualization with ggplot2', {\em The R journal} {\bf
+  5}(1),~144--161.
+
+\harvarditem{{R Core Team}}{2018}{R2018}
+{R Core Team}  \harvardyearleft 2018\harvardyearright , {\em R: A Language and
+  Environment for Statistical Computing}, R Foundation for Statistical
+  Computing, Vienna, Austria.
+\newline\harvardurl{https://www.R-project.org/}
+
+\harvarditem{Trudgill \harvardand\ Watts}{2002}{Trudgill2002}
+Trudgill, P. \harvardand\ Watts, R.~J.  \harvardyearleft 2002\harvardyearright
+  , {\em Alternative histories of English}, Routledge.
+
+\harvarditem{Wells \harvardand\ Wells}{1982}{Wells1982b}
+Wells, J.~C. \harvardand\ Wells, J.~C.  \harvardyearleft 1982\harvardyearright
+  , {\em Accents of english}, Vol.~2, Cambridge University Press Cambridge.
+
+\end{thebibliography}

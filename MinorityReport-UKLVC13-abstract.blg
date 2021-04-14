@@ -1,19 +1,21 @@
-This is BibTeX, Version 0.99d (TeX Live 2020)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: MinorityReport-UKLVC13-abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 5 items.
 The style file: agsm.bst
+Reallocating 'name_of_file' (item size: 1) to 23 items.
 Database file #1: MinorityReferences.bib
 You've used 2 entries,
             2909 wiz_defined-function locations,
-            650 strings with 5024 characters,
-and the built_in function-call counts, 6967 in all, are:
-= -- 1123
-> -- 94
+            650 strings with 5006 characters,
+and the built_in function-call counts, 5467 in all, are:
+= -- 862
+> -- 71
 < -- 1
-+ -- 528
-- -- 28
-* -- 583
-:= -- 1439
++ -- 395
+- -- 21
+* -- 439
+:= -- 1166
 add.period$ -- 2
 call.type$ -- 2
 change.case$ -- 26
@@ -21,8 +23,8 @@ chr.to.int$ -- 2
 cite$ -- 2
 duplicate$ -- 32
 empty$ -- 59
-format.name$ -- 40
-if$ -- 1247
+format.name$ -- 29
+if$ -- 970
 int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 4
@@ -34,7 +36,7 @@ purify$ -- 30
 quote$ -- 0
 skip$ -- 20
 stack$ -- 0
-substring$ -- 1548
+substring$ -- 1177
 swap$ -- 3
 text.length$ -- 29
 text.prefix$ -- 0
