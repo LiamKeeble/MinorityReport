@@ -3,44 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: MinorityReport-UKLVC13-abstract.aux
 The style file: agsm.bst
 Database file #1: MinorityReferences.bib
-You've used 2 entries,
+You've used 3 entries,
             2909 wiz_defined-function locations,
-            650 strings with 5006 characters,
-and the built_in function-call counts, 5467 in all, are:
-= -- 862
-> -- 71
+            657 strings with 5363 characters,
+and the built_in function-call counts, 21950 in all, are:
+= -- 3635
+> -- 309
 < -- 1
-+ -- 395
-- -- 21
-* -- 439
-:= -- 1166
-add.period$ -- 2
-call.type$ -- 2
-change.case$ -- 26
-chr.to.int$ -- 2
-cite$ -- 2
-duplicate$ -- 32
-empty$ -- 59
-format.name$ -- 29
-if$ -- 970
++ -- 1818
+- -- 98
+* -- 1955
+:= -- 4273
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 40
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 54
+empty$ -- 98
+format.name$ -- 109
+if$ -- 3949
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 4
-newline$ -- 9
-num.names$ -- 20
-pop$ -- 17
+missing$ -- 5
+newline$ -- 12
+num.names$ -- 31
+pop$ -- 22
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 45
 quote$ -- 0
-skip$ -- 20
+skip$ -- 43
 stack$ -- 0
-substring$ -- 1177
-swap$ -- 3
-text.length$ -- 29
+substring$ -- 5266
+swap$ -- 11
+text.length$ -- 43
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 8
 warning$ -- 0
-while$ -- 42
+while$ -- 66
 width$ -- 0
-write$ -- 27
+write$ -- 41
