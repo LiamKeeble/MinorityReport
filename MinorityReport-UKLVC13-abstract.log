@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  16 APR 2021 13:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  16 APR 2021 14:33
 entering extended mode
 **./MinorityReport-UKLVC13-abstract.tex
 (MinorityReport-UKLVC13-abstract.tex
@@ -639,7 +639,14 @@ LaTeX Font Info:    Trying to load font information for TS1+cmss on input line
 51.
 ("C:\Program Files\MiKTeX\tex/latex/base\ts1cmss.fd"
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [1
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 58.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 58.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 58.
+ [1
 
 {C:/Users/Caitlin Halfacre/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 (MinorityReport-UKLVC13-abstract.bbl
@@ -651,20 +658,21 @@ Package rerunfilecheck Info: File `MinorityReport-UKLVC13-abstract.out' has not
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 17069 strings out of 479799
- 328794 string characters out of 2879564
+ 17090 strings out of 479799
+ 329013 string characters out of 2879564
  609870 words of memory out of 3000000
- 33723 multiletter control sequences out of 15000+200000
- 537289 words of font info for 36 fonts, out of 3000000 for 9000
+ 33736 multiletter control sequences out of 15000+200000
+ 539896 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,7n,124p,743b,864s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Caitlin Halfacre\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/
 dpi600\tcss1200.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmss
 12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb>
-Output written on MinorityReport-UKLVC13-abstract.pdf (2 pages, 49591 bytes).
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on MinorityReport-UKLVC13-abstract.pdf (2 pages, 54560 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
