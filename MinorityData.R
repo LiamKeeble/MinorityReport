@@ -66,3 +66,7 @@ ProximityToCityCentre=mapdist(data$VarietyLocation, data$NearestCityCentre)
 ## create data frame ----
 
 data=data.frame(c())
+
+write.csv()
+
+
