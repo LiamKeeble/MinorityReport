@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: MinorityReport-EdPG-abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+The style file: agsm.bst
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+Database file #1: MinorityReferences.bib
+You've used 3 entries,
+            2909 wiz_defined-function locations,
+            657 strings with 5357 characters,
+and the built_in function-call counts, 21950 in all, are:
+= -- 3635
+> -- 309
+< -- 1
++ -- 1818
+- -- 98
+* -- 1955
+:= -- 4273
+add.period$ -- 3
+call.type$ -- 3
+change.case$ -- 40
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 54
+empty$ -- 98
+format.name$ -- 109
+if$ -- 3949
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 5
+newline$ -- 12
+num.names$ -- 31
+pop$ -- 22
+preamble$ -- 1
+purify$ -- 45
+quote$ -- 0
+skip$ -- 43
+stack$ -- 0
+substring$ -- 5266
+swap$ -- 11
+text.length$ -- 43
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 66
+width$ -- 0
+write$ -- 41
