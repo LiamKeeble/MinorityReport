@@ -6,8 +6,14 @@ library(tidyverse)
 
 #Data sets from searches
 
-bibData=convert2df("", dbsource="scopus", format="bibtex")
+bibData1=convert2df("TynesideEnglish", dbsource="wos", format="bibtex")
+bibData2=convert2df("BirminghamEnglish", dbsource="wos",format="bibtex")
+bibData3=convert2df("CumbrianEnglish", dbsource="wos", format="bibtex")
 
+
+bibData=rbind(bibData1,bibData2,bibData3)
+
+head(bibData)
 
 #Delete duplicates from datasets
 
