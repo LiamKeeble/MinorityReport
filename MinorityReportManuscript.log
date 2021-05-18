@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.22)  12 MAY 2021 09:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.22)  18 MAY 2021 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -649,22 +649,20 @@ LaTeX Font Info:    Trying to load font information for TS1+cmss on input line
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [3]
-(./MinorityReportManuscript.bbl
 LaTeX Font Info:    Font shape `OT1/cmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 5.
-) [4] (./MinorityReportManuscript.aux)
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 100.
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
+(./MinorityReportManuscript.bbl) [4] (./MinorityReportManuscript.aux)
 Package rerunfilecheck Info: File `MinorityReportManuscript.out' has not change
 d.
-(rerunfilecheck)             Checksum: 43A974BD46ECA0FEDF5AB148BDBB9423;1256.
+(rerunfilecheck)             Checksum: 7F2A9C5A90615E22CF2F71A67BF4665A;1411.
  ) 
 Here is how much of TeX's memory you used:
- 19262 strings out of 478994
- 360314 string characters out of 5858184
+ 19264 strings out of 478994
+ 360344 string characters out of 5858184
  639835 words of memory out of 5000000
- 36388 multiletter control sequences out of 15000+600000
+ 36389 multiletter control sequences out of 15000+600000
  409270 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,9n,130p,1025b,965s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -677,10 +675,10 @@ r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr
 ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/
 local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb>
-Output written on MinorityReportManuscript.pdf (4 pages, 90351 bytes).
+Output written on MinorityReportManuscript.pdf (4 pages, 91401 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 130 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+ 173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
