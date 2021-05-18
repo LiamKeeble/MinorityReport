@@ -762,11 +762,11 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmss.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmss.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1cmss.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcss1000.tfm
+INPUT ./MinorityReportManuscript.bbl
+INPUT MinorityReportManuscript.bbl
+INPUT ./MinorityReportManuscript.bbl
+INPUT MinorityReportManuscript.bbl
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmssi10.tfm
-INPUT ./MinorityReportManuscript.bbl
-INPUT MinorityReportManuscript.bbl
-INPUT ./MinorityReportManuscript.bbl
-INPUT MinorityReportManuscript.bbl
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmssbx10.tfm
 INPUT MinorityReportManuscript.aux
 INPUT ./MinorityReportManuscript.out
