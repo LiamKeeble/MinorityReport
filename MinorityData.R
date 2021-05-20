@@ -21,6 +21,7 @@ register_google(key = "")
 ## Variety Lists ----
 
 EnglishVariety=c("Geordie", "Scouse", "Brummie")
+# how are we going to handle different names here? they could also be TYneside Tyneside, Liverpool, and Birmingham English respectively
 
 VarietyLocation=c("Newcastle", "Liverpool", "Birmingham")
 

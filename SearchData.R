@@ -12,6 +12,7 @@ bibData=convert2df("", dbsource="scopus", format="bibtex")
 #Delete duplicates from datasets
 
 data=as_tibble(bibData)
+# %>% distinct()
 
 data[!duplicated(data$title), ]
 
