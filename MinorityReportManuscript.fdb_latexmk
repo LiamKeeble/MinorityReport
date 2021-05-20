@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex MinorityReportManuscript"] 1621343823 "MinorityReportManuscript.aux" "MinorityReportManuscript.bbl" "MinorityReportManuscript" 1621409858
+["bibtex MinorityReportManuscript"] 1621520200 "MinorityReportManuscript.aux" "MinorityReportManuscript.bbl" "MinorityReportManuscript" 1621520201
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/harvard/agsm.bst" 1136766823 25549 e3d0f1ab4ae55e777f7352db30e2c6f7 ""
-  "MinorityReferences.bib" 1618500649 3379 5d1d00014f7530938f0579a7afeda4c9 ""
-  "MinorityReportManuscript.aux" 1621409858 2340 8ce6b046b65b49e4aaa0af823b9ecf24 "pdflatex"
+  "MinorityReferences.bib" 1621519954 3379 5d1d00014f7530938f0579a7afeda4c9 ""
+  "MinorityReportManuscript.aux" 1621520201 2723 a1551c6a76d9c9679755b2b12ef6b116 "pdflatex"
   (generated)
   "MinorityReportManuscript.bbl"
   "MinorityReportManuscript.blg"
-["pdflatex"] 1621409857 "MinorityReportManuscript.tex" "MinorityReportManuscript.pdf" "MinorityReportManuscript" 1621409858
+["pdflatex"] 1621520200 "MinorityReportManuscript.tex" "MinorityReportManuscript.pdf" "MinorityReportManuscript" 1621520201
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/jknappen/ec/tcss1000.tfm" 1136768653 1536 293044035fd171bb1d18cf655049b101 ""
@@ -158,12 +158,12 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1619117490 2724738 0ad16adf188c8ba36f33b755e2ff044d ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "MinorityReportManuscript.aux" 1621409858 2340 8ce6b046b65b49e4aaa0af823b9ecf24 "pdflatex"
-  "MinorityReportManuscript.bbl" 1621343823 918 b63257cff7a519a4364eafd109b63c26 "bibtex MinorityReportManuscript"
-  "MinorityReportManuscript.out" 1621409858 1411 7f2a9c5a90615e22cf2f71a67bf4665a "pdflatex"
-  "MinorityReportManuscript.tex" 1621409842 6989 2fec0ff3c2a0bd1394e2d16f32c6056c ""
+  "MinorityReportManuscript.aux" 1621520201 2723 a1551c6a76d9c9679755b2b12ef6b116 "pdflatex"
+  "MinorityReportManuscript.bbl" 1621520200 918 b63257cff7a519a4364eafd109b63c26 "bibtex MinorityReportManuscript"
+  "MinorityReportManuscript.out" 1621520201 1411 7f2a9c5a90615e22cf2f71a67bf4665a "pdflatex"
+  "MinorityReportManuscript.tex" 1621520196 8386 1fba4aaa8c0bf89df72d81bfca2ea358 ""
   (generated)
+  "MinorityReportManuscript.pdf"
   "MinorityReportManuscript.out"
   "MinorityReportManuscript.aux"
   "MinorityReportManuscript.log"
-  "MinorityReportManuscript.pdf"

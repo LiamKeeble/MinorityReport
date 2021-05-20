@@ -15,10 +15,10 @@ print(list)
 
 #Data sets from searches
 
-bibData1=convert2df("EastLincolnshire.bib",dbsource="wos", format="bibtex")
+bibData1=convert2df("Lincolnshire.bib",dbsource="wos", format="bibtex")
 data1=data.frame(bibData1$AU,bibData1$TI,bibData1$SO,bibData1$PY)
 data1=rename(data1, c("bibData1.AU"="Author","bibData1.TI"="Title","bibData1.SO"="Source","bibData1.PY"="PubYear"))
-data1$Variety=rep("EastLincolnshire", nrow(data1))
+data1$Variety=rep("Lincolnshire", nrow(data1))
 
 describe(data1)
 
@@ -55,21 +55,12 @@ describe(data)
 
 
 
-#Sample and export pilot data
-
-pilotData=data[sample(1:nrow(data), 30), ]
-pilotData$Coder=c(rep("Caitlin",15),rep("Liam",15))
-pilotData$Removed=NA
-pilotData$Reason=NA
-
-head(pilotData)
-
-write.csv(pilotData, "pilotData.csv")
-
-
 #Export final dataset for assessment for inclusion
 
-data=data[sample(nrow(data)), ]
+#Alter sample size for actual study
+data=data[sample(nrow(data), 20), ]
+#
+
 data$Coder=c(rep("Caitlin", nrow(data)/2),rep("Liam", nrow(data)/2))
 data$Removed=NA
 data$Reason=NA
