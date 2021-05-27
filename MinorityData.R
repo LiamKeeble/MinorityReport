@@ -16,16 +16,45 @@ package.check <- lapply(
 
 ## Google API key ----
 
-register_google(key = "")
+register_google(key = "AIzaSyC9Deo70nrX_aaVNc3mkxSz-8ThhypBjGU")
 
 ## Variety Lists ----
+set.seed(111)
 
-EnglishVariety=c("Geordie", "Scouse", "Brummie")
-# how are we going to handle different names here? they could also be TYneside Tyneside, Liverpool, and Birmingham English respectively
 
-VarietyLocation=c("Newcastle", "Liverpool", "Birmingham")
+EnglishVariety=c("Chesire","Cumbrian","Tyneside","Hartlepool","Lancashire","Sunderland","Mancunian","Northumbrian","County Durham","Merseyside","Teesside","Yorkshire","Lincolnshire","East Lincolnshire","Black Country","Birmingham","North Staffordshire","Coventry","Norfolk","Suffolk","London","Essex","Hampshire","Porstmouth","Kent","Sussex","Cornwall","Bristol","Plymouth","Dorset")
 
-NearestUniversity=c("Newcastle University", "Liverpool University", "Birmingham University")
+
+
+VarietyLocation=c("Chesire","Cumbria","Newcastle upon Tyne","Hartlepool","Lancashire","Sunderland","Manchester","Northumbrian","County Durham","Merseyside","Teesside","Yorkshire","Lincolnshire","Lincolnshire","Black Country","Birmingham","Staffordshire","Coventry","Norfolk","Suffolk","London","Essex","Hampshire","Porstmouth","Kent","Sussex","Cornwall","Bristol","Plymouth","Dorset")
+
+pilotData=data.frame(EnglishVariety,VarietyLocation)
+
+#Pilot dataset
+pilotData=pilotData[sample(1:nrow(pilotData), 10), ]
+print(pilotData)
+
+
+pilotData$pilotCorpus=c("No","No","Yes","No","No","No","No","Yes","No","No")
+
+pilotData$NearestUniversity=c("University of Lincoln","Falmouth University","University of Suffolk", "University of East Anglia", "University of Birmingham", "University of Kent","University of Central Lancashire", "Newcastle University", "Northumbria University", "Staffordshire University")
+
+library(plyr)
+paperData=read.csv("pilotData.csv")
+FreqPapers=count(paperData, vars="Variety")
+FreqPapers[nrow(FreqPapers)+1,]=c("BlackCountry",0)
+pilotData$FreqPapers=FreqPapers
+
+head(pilotData,10)
+
+
+
+write.csv(pilotData, "pilotModelData.csv")
+
+
+#Final dataset
+
+NearestUniversity=c()
 
 Corpus=c()
 

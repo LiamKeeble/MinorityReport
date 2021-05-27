@@ -1,19 +1,12 @@
-## Load and install packages ----
-## First specify the packages of interest
-packages = c("lmer")
 
-## Now load or install&load all
-package.check <- lapply(
-  packages,
-  FUN = function(x) {
-    if (!require(x, character.only = TRUE)) {
-      install.packages(x, dependencies = TRUE)
-      library(x, character.only = TRUE)
-    }
-  }
-)
-## If a package is installed, it will be loaded. If any are not, the missing package(s) will be installed from CRAN and then loaded.
 
+#Pilot data
+pilotData=read.csv("pilotModelData.csv")
+head(pilotData, 10)
+
+#Pilot models
+pilotCorp=glm(FreqPapers.freq~pilotCorpus, data=pilotData, family=poisson)
+summary(pilotCorp)
 
 
 #Data-------
