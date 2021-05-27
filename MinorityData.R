@@ -47,6 +47,19 @@ FreqPapers=count(paperData, vars="Variety")
 FreqPapers[nrow(FreqPapers)+1,]=c("BlackCountry",0)
 pilotData$FreqPapers=FreqPapers
 
+#map1=mapdist("University of Lincoln","Lincolnshire")
+#map2=mapdist("Falmouth University","Cornwall")
+#map3=mapdist("University of Suffolk","Suffolk")
+#map4=mapdist("University of East Anglia","Norfolk")
+#map5=mapdist("University of Birmingham","Black Country")
+#map6=mapdist("University of Kent","Kent")
+#map7=mapdist("University of Central Lancashire","Lancashire")
+#map8=mapdist("Newcastle University","Newcastle upon Tyne")
+#map9=mapdist("Northumbria University","Northumberland")
+#map10=mapdist("Staffordshire University","Staffordshire")
+#pilotData$ProximityToUniversity=rbind(map1,map2,map3,map4,map5,map6,map7,map8,map9,map10)
+
+
 head(pilotData,10)
 
 
