@@ -116,7 +116,7 @@ describe(data)
 
 #Export final dataset for assessment for inclusion
 
-data=data[sample(1:nrow(data), 500), ]
+data=data[sample(1:nrow(data), 160), ]
 data$Coder=c(rep("Caitlin", nrow(data)/2),rep("Liam", nrow(data)/2))
 data$Removed=NA
 data$Reason=NA
