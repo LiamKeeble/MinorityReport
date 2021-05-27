@@ -39,6 +39,8 @@ pilotData$pilotCorpus=c("No","No","Yes","No","No","No","No","Yes","No","No")
 
 pilotData$NearestUniversity=c("University of Lincoln","Falmouth University","University of Suffolk", "University of East Anglia", "University of Birmingham", "University of Kent","University of Central Lancashire", "Newcastle University", "Northumbria University", "Staffordshire University")
 
+pilotData$AreaIncome=c(30.4,24.5,37.9,34.9,25.9,42.9,43,35.9,27.3,27)
+
 library(plyr)
 paperData=read.csv("pilotData.csv")
 FreqPapers=count(paperData, vars="Variety")

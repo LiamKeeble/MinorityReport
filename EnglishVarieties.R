@@ -8,6 +8,9 @@ head(pilotData, 10)
 pilotCorp=glm(FreqPapers.freq~pilotCorpus, data=pilotData, family=poisson)
 summary(pilotCorp)
 
+pilotIncome=glm(FreqPapers.freq~AreaIncome, data=pilotData, family=poisson)
+summary(pilotIncome)
+
 
 #Data-------
 
