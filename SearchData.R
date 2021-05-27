@@ -10,7 +10,7 @@ set.seed(111)
 
 list=data.frame(Variety=c("Chesire","Cumbrian","Tyneside","Hartlepool","Lancashire","Sunderland","Mancunian","Northumbrian","County Durham","Merseyside","Teesside","Yorkshire","Lincolnshire","East Lincolnshire","Black Country","Birmingham","North Staffordshire","Coventry","Norfolk","Suffolk","London","Essex","Hampshire","Porstmouth","Kent","Sussex","Cornwall","Bristol","Plymouth","Dorset"))
 
-list=list[sample(1:nrow(list), 3), ]
+list=list[sample(1:nrow(list), 10), ]
 print(list)
 
 #Data sets from searches
@@ -36,9 +36,68 @@ data3$Variety=rep("Suffolk", nrow(data3))
 
 describe(data3)
 
+bibData4=convert2df("Norfolk.bib",dbsource="wos", format="bibtex")
+data4=data.frame(bibData4$AU,bibData4$TI,bibData4$SO,bibData4$PY,bibData4$DI)
+data4=rename(data4, c("bibData4.AU"="Author","bibData4.TI"="Title","bibData4.SO"="Source","bibData4.PY"="PubYear","bibData4.DI"="DOI"))
+data4$Variety=rep("Lincolnshire", nrow(data1))
+
+describe(data4)
+
+
+bibData5=convert2df("BlackCountry.bib",dbsource="wos", format="bibtex")
+data5=data.frame(bibData5$AU,bibData5$TI,bibData5$SO,bibData5$PY,bibData5$DI)
+data5=rename(data1, c("bibData5.AU"="Author","bibData5.TI"="Title","bibData5.SO"="Source","bibData5.PY"="PubYear","bibData5.DI"="DOI"))
+data5$Variety=rep("Lincolnshire", nrow(data5))
+
+describe(data5)
+
+
+
+bibData6=convert2df("Kent.bib",dbsource="wos", format="bibtex")
+data6=data.frame(bibData6$AU,bibData6$TI,bibData6$SO,bibData6$PY,bibData6$DI)
+data6=rename(data6, c("bibData6.AU"="Author","bibData6.TI"="Title","bibData6.SO"="Source","bibData6.PY"="PubYear","bibData6.DI"="DOI"))
+data1$Variety=rep("Lincolnshire", nrow(data6))
+
+describe(data6)
+
+
+bibData7=convert2df("Lancashire.bib",dbsource="wos", format="bibtex")
+data7=data.frame(bibData7$AU,bibData7$TI,bibData7$SO,bibData7$PY,bibData7$DI)
+data7=rename(data7, c("bibData7.AU"="Author","bibData7.TI"="Title","bibData7.SO"="Source","bibData7.PY"="PubYear","bibData7.DI"="DOI"))
+data7$Variety=rep("Lincolnshire", nrow(data7))
+
+describe(data7)
+
+
+
+bibData8=convert2df("Tyneside.bib",dbsource="wos", format="bibtex")
+data8=data.frame(bibData8$AU,bibData8$TI,bibData8$SO,bibData8$PY,bibData8$DI)
+data8=rename(data8, c("bibData8.AU"="Author","bibData8.TI"="Title","bibData8.SO"="Source","bibData8.PY"="PubYear","bibData8.DI"="DOI"))
+data8$Variety=rep("Lincolnshire", nrow(data8))
+
+describe(data8)
+
+
+bibData9=convert2df("Northumbrian.bib",dbsource="wos", format="bibtex")
+data9=data.frame(bibData9$AU,bibData9$TI,bibData9$SO,bibData9$PY,bibData9$DI)
+data9=rename(data9, c("bibData9.AU"="Author","bibData9.TI"="Title","bibData9.SO"="Source","bibData9.PY"="PubYear","bibData9.DI"="DOI"))
+data9$Variety=rep("Lincolnshire", nrow(data9))
+
+describe(data9)
+
+
+bibData10=convert2df("Staffordshire.bib",dbsource="wos", format="bibtex")
+data10=data.frame(bibData10$AU,bibData10$TI,bibData10$SO,bibData1$PY,bibData10$DI)
+data10=rename(data10, c("bibData10.AU"="Author","bibData10.TI"="Title","bibData10.SO"="Source","bibData10.PY"="PubYear","bibData10.DI"="DOI"))
+data10$Variety=rep("Lincolnshire", nrow(data10))
+
+describe(data10)
+
+
+
 
 #Combining datasets
-bibData=rbind(data1,data2,data3)
+bibData=rbind(data1,data2,data3,data4,data5,data6,data7,data8,data9,data10)
 
 describe(bibData)
 
@@ -57,16 +116,13 @@ describe(data)
 
 #Export final dataset for assessment for inclusion
 
-#Alter sample size for actual study
-data=data[sample(nrow(data), 20), ]
-#
 
 data$Coder=c(rep("Caitlin", nrow(data)/2),rep("Liam", nrow(data)/2))
 data$Removed=NA
 data$Reason=NA
 
 head(data)
-write.csv(data, "bibData.csv")
+write.csv(data, "pilotData.csv")
 
 
 
