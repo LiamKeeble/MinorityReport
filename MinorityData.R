@@ -43,6 +43,8 @@ pilotData$AreaIncome=c(30.4,24.5,37.9,34.9,25.9,42.9,43,35.9,27.3,27)
 
 library(plyr)
 paperData=read.csv("pilotData.csv")
+paperData=subset(paperData, Removed=="No")
+
 FreqPapers=count(paperData, vars="Variety")
 FreqPapers[nrow(FreqPapers)+1,]=c("BlackCountry",0)
 pilotData$FreqPapers=FreqPapers
