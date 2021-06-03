@@ -16,7 +16,7 @@ package.check <- lapply(
 
 ## Google API key ----
 
-register_google(key = "AIzaSyC9Deo70nrX_aaVNc3mkxSz-8ThhypBjGU")
+register_google(key = "")
 
 ## Variety Lists ----
 set.seed(111)
