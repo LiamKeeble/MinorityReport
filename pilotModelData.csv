@@ -1,11 +1,11 @@
 "","EnglishVariety","VarietyLocation","pilotCorpus","NearestUniversity","AreaIncome","FreqPapers.Variety","FreqPapers.freq"
-"14","East Lincolnshire","Lincolnshire","No","University of Lincoln",30.4,Cornwall,2
-"27","Cornwall","Cornwall","No","Falmouth University",24.5,Kent,82
-"20","Suffolk","Suffolk","Yes","University of Suffolk",37.9,Lancashire,17
+"14","East Lincolnshire","Lincolnshire","No","University of Lincoln",30.4,BlackCountry,1
+"27","Cornwall","Cornwall","No","Falmouth University",24.5,Kent,1
+"20","Suffolk","Suffolk","Yes","University of Suffolk",37.9,Lancashire,1
 "19","Norfolk","Norfolk","No","University of East Anglia",34.9,Lincolnshire,1
-"15","Black Country","Black Country","No","University of Birmingham",25.9,Norfolk,44
-"25","Kent","Kent","No","University of Kent",42.9,Northumbrian,4
-"5","Lancashire","Lancashire","No","University of Central Lancashire",43.0,Staffordshire,1
-"3","Tyneside","Newcastle upon Tyne","Yes","Newcastle University",35.9,Suffolk,2
-"8","Northumbrian","Northumbrian","No","Northumbria University",27.3,Tyneside,7
-"17","North Staffordshire","Staffordshire","No","Staffordshire University",27.0,BlackCountry,0
+"15","Black Country","Black Country","No","University of Birmingham",25.9,Tyneside,5
+"25","Kent","Kent","No","University of Kent",42.9,Cornwall,0
+"5","Lancashire","Lancashire","No","University of Central Lancashire",43.0,Suffolk,0
+"3","Tyneside","Newcastle upon Tyne","Yes","Newcastle University",35.9,Norfolk,0
+"8","Northumbrian","Northumbrian","No","Northumbria University",27.3,Lancashire,0
+"17","North Staffordshire","Staffordshire","No","Staffordshire University",27.0,Staffordshire,0
