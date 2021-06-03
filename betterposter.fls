@@ -469,7 +469,12 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbrbs8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbrbs8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
+INPUT ./frame-2.png
+INPUT ./frame-2.png
+INPUT frame-2.png
+INPUT ./frame-2.png
 OUTPUT betterposter.pdf
+INPUT ./frame-2.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
