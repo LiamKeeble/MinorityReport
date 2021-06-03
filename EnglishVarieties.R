@@ -11,6 +11,14 @@ summary(pilotCorp)
 pilotIncome=glm(FreqPapers.freq~AreaIncome, data=pilotData, family=poisson)
 summary(pilotIncome)
 
+bigModel=glm(FreqPapers.freq~AreaIncome+pilotCorpus, data=pilotData, family=poisson)
+summary(bigModel)
+
+library(ggplot2)
+plotData=read.csv("plotData.csv")
+bigplot=ggplot(data=plotData,(aes(x=Variety, fill=Variety)))+
+  geom_bar()
+bigplot
 
 #Data-------
 

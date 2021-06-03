@@ -44,9 +44,14 @@ pilotData$AreaIncome=c(30.4,24.5,37.9,34.9,25.9,42.9,43,35.9,27.3,27)
 library(plyr)
 paperData=read.csv("pilotData.csv")
 paperData=subset(paperData, Removed=="No")
+write.csv(paperData, "plotData.csv")
 
 FreqPapers=count(paperData, vars="Variety")
-FreqPapers[nrow(FreqPapers)+1,]=c("BlackCountry",0)
+FreqPapers[nrow(FreqPapers)+1,]=c("Cornwall",0)
+FreqPapers[nrow(FreqPapers)+1,]=c("Suffolk",0)
+FreqPapers[nrow(FreqPapers)+1,]=c("Norfolk",0)
+FreqPapers[nrow(FreqPapers)+1,]=c("Lancashire",0)
+FreqPapers[nrow(FreqPapers)+1,]=c("Staffordshire",0)
 pilotData$FreqPapers=FreqPapers
 
 #map1=mapdist("University of Lincoln","Lincolnshire")
