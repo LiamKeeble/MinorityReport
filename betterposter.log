@@ -1,43 +1,45 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.2)  3 JUN 2021 17:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.22)  3 JUN 2021 17:45
 entering extended mode
-**./betterposter.tex
-(betterposter.tex
-LaTeX2e <2020-10-01> patch level 2
-L3 programming layer <2020-10-27> xparse <2020-03-03> (betterposter.cls
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**betterposter.tex
+(./betterposter.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (./betterposter.cls
 Document Class: betterposter 2019/04/04 Better Poster latex template v1.0
-("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-("C:\Program Files\MiKTeX\tex/latex/base\size10.clo"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
-\c@part=\count175
-\c@section=\count176
-\c@subsection=\count177
-\c@subsubsection=\count178
-\c@paragraph=\count179
-\c@subparagraph=\count180
-\c@figure=\count181
-\c@table=\count182
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count183
-\Gm@cntv=\count184
-\c@Gm@tempcnt=\count185
+\Gm@cnth=\count187
+\Gm@cntv=\count188
+\c@Gm@tempcnt=\count189
 \Gm@bindingoffset=\dimen139
 \Gm@wd@mp=\dimen140
 \Gm@odd@mp=\dimen141
@@ -47,9 +49,8 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layouthoffset=\dimen145
 \Gm@layoutvoffset=\dimen146
 \Gm@dimlist=\toks16
-
-("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX\tex/latex/cmbright\cmbright.sty"
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cmbright/cmbright.sty
 Package: cmbright 2005/04/13 v8.1 (WaS)
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -117,13 +118,13 @@ LaTeX Info: Redefining \LaTeXe on input line 139.
 LaTeX Font Info:    Trying to load font information for OT1+cmbr on input line 
 144.
 
-("C:\Program Files\MiKTeX\tex/latex/cmbright\ot1cmbr.fd"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cmbright/ot1cmbr.fd
 File: ot1cmbr.fd 2005/04/13 v8.1 (WaS)
 ))
-("C:\Program Files\MiKTeX\tex/latex/lato\lato.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lato/lato.sty
 Package: lato 2019/06/20 Style file for Lato.
 
-("C:\Program Files\MiKTeX\tex/latex/fontaxes\fontaxes.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/fontaxes/fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -136,52 +137,52 @@ LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
 )
-("C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-("C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/generic/iftex/ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-("C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-("C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex"
-("C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex"
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2021/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks17
 \XKV@tempa@toks=\toks18
 )
-\XKV@depth=\count186
+\XKV@depth=\count190
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )))
-("C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input li
 ne 112.
 
-("C:\Program Files\MiKTeX\tex/latex/lato\t1lato-tlf.fd"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lato/T1lato-TLF.fd
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 112.
 )
-("C:\Program Files\MiKTeX\tex/latex/enumitem\enumitem.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip49
 \enit@outerparindent=\dimen147
 \enit@toks=\toks19
 \enit@inbox=\box47
-\enit@count@id=\count187
-\enitdp@description=\count188
+\enit@count@id=\count191
+\enitdp@description=\count192
 )
-("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -194,16 +195,16 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
@@ -211,33 +212,33 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
 )
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks20
 \ex@=\dimen150
 ))
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen151
 )
-("C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count189
+\inf@bad=\count193
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count190
-\leftroot@=\count191
+\uproot@=\count194
+\leftroot@=\count195
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count192
-\DOTSCASE@=\count193
+\classnum@=\count196
+\DOTSCASE@=\count197
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -246,15 +247,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen152
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count194
-\c@MaxMatrixCols=\count195
+\macc@depth=\count198
+\c@MaxMatrixCols=\count199
 \dotsspace@=\muskip16
-\c@parentequation=\count196
-\dspbrk@lvl=\count197
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
 \tag@help=\toks21
-\row@=\count198
-\column@=\count199
-\maxfields@=\count266
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
 \andhelp@=\toks22
 \eqnshift@=\dimen153
 \alignsep@=\dimen154
@@ -269,7 +270,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-("C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -277,7 +278,7 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 \leftbarwidth=\skip53
@@ -287,12 +288,12 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 \maincolumnmarginvertical=\skip57
 \maincolumnmarginhorizontal=\skip58
 )
-("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count267
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box50
 )
-(betterposter.aux)
+(./betterposter.aux)
 \openout1 = `betterposter.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -344,43 +345,42 @@ LaTeX Font Info:    ... okay on input line 4.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count268
-\c@mv@boldtabular=\count269
-("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+\c@mv@tabular=\count272
+\c@mv@boldtabular=\count273
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count270
+\scratchcounter=\count274
 \scratchdimen=\dimen159
 \scratchbox=\box51
-\nofMPsegments=\count271
-\nofMParguments=\count272
+\nofMPsegments=\count275
+\nofMParguments=\count276
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count273
+\MPscratchCnt=\count277
 \MPscratchDim=\dimen160
-\MPnumerator=\count274
-\makeMPintoPDFobject=\count275
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
 \everyMPtoPDFconversion=\toks26
-) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX\tex/latex/grfext\grfext.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-("C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-))
-("C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty"
+)) (/usr/local/texlive/2021/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-("C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-("C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
+(/usr/local/texlive/2021/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -393,138 +393,169 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
-)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 32.0pt on input line 59.
+(Font)              scaled to size 32.0pt on input line 73.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 80.0pt on input line 59.
+(Font)              scaled to size 80.0pt on input line 73.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 80.0pt on input line 59.
+(Font)              scaled to size 80.0pt on input line 73.
 
-Underfull \hbox (badness 7522) in paragraph at lines 59--59
-[]\T1/lato-TLF/b/n/80 Are there ge-
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\T1/lato-TLF/b/n/80 Minority Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\T1/lato-TLF/b/n/80 o-graph-i-cal bi-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\T1/lato-TLF/b/n/80 ases in the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\T1/lato-TLF/b/n/80 study of lan-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 48.0pt on input line 59.
+(Font)              scaled to size 48.0pt on input line 73.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 48.0pt on input line 59.
+(Font)              scaled to size 48.0pt on input line 73.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 59.
-("C:\Program Files\MiKTeX\tex/latex/lato\ts1lato-tlf.fd"
+ine 73.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 32.0pt on input line 59.
-LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line
- 59.
+(Font)              scaled to size 32.0pt on input line 73.
 
-("C:\Program Files\MiKTeX\tex/latex/cmbright\omlcmbrm.fd"
+Underfull \hbox (badness 3128) in paragraph at lines 73--73
+\T1/lato-TLF/m/n/32 study-ing some va-ri-eties of En-glish
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\T1/lato-TLF/m/n/32 Assess other pos-si-ble ge-o-graph-i-
+ []
+
+LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line
+ 73.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line
- 59.
+ 73.
 
-("C:\Program Files\MiKTeX\tex/latex/cmbright\omscmbrs.fd"
+(/usr/local/texlive/2021/texmf-dist/tex/latex/cmbright/omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 116.0pt on input line 59.
+(Font)              scaled to size 116.0pt on input line 73.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 116.0pt on input line 59.
+(Font)              scaled to size 116.0pt on input line 73.
 <frame-2.png, id=1, 3011.25pt x 3011.25pt>
 File: frame-2.png Graphic file (type png)
 <use frame-2.png>
-Package pdftex.def Info: frame-2.png  used on input line 59.
+Package pdftex.def Info: frame-2.png  used on input line 73.
 (pdftex.def)             Requested size: 506.64589pt x 506.62172pt.
 
-Underfull \hbox (badness 2644) in paragraph at lines 59--59
+Underfull \hbox (badness 2644) in paragraph at lines 73--73
 []\T1/lato-TLF/m/n/32 Scan to ac-cess ma-te-ri-als for this
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
+LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
+(Font)              scaled to size 32.0pt on input line 73.
 
-Underfull \hbox (badness 1558) in paragraph at lines 59--59
-\T1/lato-TLF/m/n/32 man-u-ally as-sessed for rel-e-vance to
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]\T1/lato-TLF/m/n/32 Search Term: (WC=(Linguistics)
  []
 
 
-Underfull \hbox (badness 7740) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/lato-TLF/m/n/32 AND ((ALL="name of va-ri-ety")
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+\T1/lato-TLF/m/n/32 AND ((ALL=sociolinguist*) OR
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 73--73
+[]\T1/lato-TLF/m/n/32 The data from searches was pre-
+ []
+
+
+Underfull \hbox (badness 7740) in paragraph at lines 73--73
 []\T1/lato-TLF/m/n/32 The re-main-ing stud-ies from each
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 59--59
+Underfull \hbox (badness 2617) in paragraph at lines 73--73
 \T1/lato-TLF/m/n/32 search were counted and the fre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+
+ []
+
+LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
+(Font)              scaled to size 32.0pt on input line 73.
 [1
 
-{C:/Users/Caitlin Halfacre/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./fr
-ame-2.png>] (betterposter.aux) ) 
+{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./frame
+-2.png>] [2] (./betterposter.aux) ) 
 Here is how much of TeX's memory you used:
- 4908 strings out of 479799
- 70325 string characters out of 2879564
- 357625 words of memory out of 3000000
- 21808 multiletter control sequences out of 15000+200000
- 717306 words of font info for 62 fonts, out of 3000000 for 9000
+ 4946 strings out of 478994
+ 71438 string characters out of 5858184
+ 377700 words of memory out of 5000000
+ 22334 multiletter control sequences out of 15000+600000
+ 630789 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 80i,17n,85p,317b,557s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 83i,17n,88p,234b,569s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/en
+c/dvips/lato/a_cl4kdn.enc}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/l
+ato/a_rt66h3.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/
+Lato-Bold.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lat
+o-Italic.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato
+-Regular.pfb>
+Output written on betterposter.pdf (2 pages, 197960 bytes).
+PDF statistics:
+ 30 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!pdfTeX error: pdflatex.exe (file Lato-Regular-T1-TLF--base): Font Lato-Regular
--T1-TLF--base at 6960 not found
- ==> Fatal error occurred, no output PDF file produced!
