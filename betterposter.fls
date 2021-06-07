@@ -318,6 +318,7 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
+INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -443,6 +444,7 @@ INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-TS1-TLF.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbr8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbr8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
@@ -475,8 +477,11 @@ INPUT frame-2.png
 INPUT ./frame-2.png
 OUTPUT betterposter.pdf
 INPUT ./frame-2.png
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF.tfm
+INPUT ./posterPlot.png
+INPUT ./posterPlot.png
+INPUT posterPlot.png
+INPUT ./posterPlot.png
+INPUT ./posterPlot.png
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -492,13 +497,8 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/typoland/lato/Lato-Bold-T1-TLF.vf
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF--base.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/typoland/lato/Lato-Italic-T1-TLF.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Italic-T1-TLF--base.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/vf/typoland/lato/Lato-Regular-T1-TLF.vf
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF--base.tfm
 INPUT betterposter.aux
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Italic.pfb
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb

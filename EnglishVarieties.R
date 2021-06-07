@@ -18,7 +18,7 @@ library(ggplot2)
 plotData=read.csv("plotData.csv")
 bigplot=ggplot(data=plotData,(aes(x=Variety, fill=Variety)))+
   geom_bar()
-bigplot
+ggsave("posterPlot.png", bigplot)
 
 #Data-------
 
