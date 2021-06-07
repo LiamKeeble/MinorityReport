@@ -1,10 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1623067696 "betterposter.tex" "betterposter.pdf" "betterposter" 1623067697
+["pdflatex"] 1623068837 "betterposter.tex" "betterposter.pdf" "betterposter" 1623068838
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1561498483 2908 33404fff2a7b8e169974e96af0be5333 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc" 1561498483 3345 f5bff336afd6959239b79815a9c623d1 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbr10.tfm" 1136768653 1304 95ad082f6791446dc43df559d5c79878 ""
+  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbr17.tfm" 1136768653 1292 864850248589e7d3af41afc829d0eaf3 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbr8.tfm" 1136768653 1304 6f575d26e34fea6311d7ae3e9a5bf8d0 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbras10.tfm" 1136768653 848 1ad7f1561396ccf4a79d2f57e14bf3a9 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbras8.tfm" 1136768653 852 e8c0fa95ccb34adce23fd4bfeb3ad1f7 ""
@@ -75,12 +77,12 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1619117490 2724738 0ad16adf188c8ba36f33b755e2ff044d ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "betterposter.aux" 1623067697 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "betterposter.aux" 1623068838 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "betterposter.cls" 1621519954 5529 4a4261f13f6e624cf5cd74113c3d61ec ""
-  "betterposter.tex" 1623067694 2531 72e8e6bb3b94275feeb1fdec647cc1fd ""
+  "betterposter.tex" 1623068835 2701 9d1995d20ab9a63796b1070024fc5ef7 ""
   "frame-2.png" 1622733557 184753 8cd266346e309a59b8c751cde1130971 ""
-  "posterPlot.png" 1623066236 138314 6b1def3ae9ae0a041504f2bfb671a7c3 ""
+  "posterPlot.png" 1623068658 151568 f4efb43ba35aac99331dcac6cd613a62 ""
   (generated)
   "betterposter.aux"
-  "betterposter.pdf"
   "betterposter.log"
+  "betterposter.pdf"

@@ -17,7 +17,8 @@ summary(bigModel)
 library(ggplot2)
 plotData=read.csv("plotData.csv")
 bigplot=ggplot(data=plotData,(aes(x=Variety, fill=Variety)))+
-  geom_bar()
+  geom_bar()+
+  labs(caption="Figure 1. Frequency of papers on each English variety that could be included in the present study.")
 ggsave("posterPlot.png", bigplot)
 
 #Data-------
