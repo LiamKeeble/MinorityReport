@@ -1,4 +1,11 @@
-
+# plot theme
+theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
+    theme(plot.background  = element_rect(fill = "transparent", colour = NA),
+          panel.background = element_rect(fill="gray90", colour=NA),
+          legend.background = element_rect(fill="transparent", colour=NA),
+          legend.key = element_rect(fill="transparent", colour=NA),
+          panel.grid.major = element_line(colour = "white", size = 0.2), 
+          panel.grid.minor = element_line(colour = "grey98", size = 0.5))}
 
 #Pilot data
 pilotData=read.csv("pilotModelData.csv")
@@ -15,10 +22,23 @@ bigModel=glm(FreqPapers.freq~AreaIncome+pilotCorpus, data=pilotData, family=pois
 summary(bigModel)
 
 library(ggplot2)
+theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
+    theme(plot.background  = element_rect(fill = "transparent", colour = NA),
+          panel.background = element_rect(fill="gray90", colour=NA),
+          legend.background = element_rect(fill="transparent", colour=NA),
+          legend.key = element_rect(fill="transparent", colour=NA),
+          panel.grid.major = element_line(colour = "white", size = 0.2), 
+          panel.grid.minor = element_line(colour = "grey98", size = 0.5))}
+inauguration5=inauguration("inauguration_2021", 5)
 plotData=read.csv("plotData.csv")
 bigplot=ggplot(data=plotData,(aes(x=Variety, fill=Variety)))+
   geom_bar()+
-  labs(caption="Figure 1. Frequency of papers on each English variety that could be included in the present study.")
+  labs(caption="Figure 1.Frequency of papers by region (from pilot search), after pre-screening.") +
+  scale_fill_manual(values = inauguration("inauguration_2021", 5))+
+  theme_Caitlin_present()+
+  theme(legend.position = "none", plot.caption = element_text(hjust = 0.5))+
+  NULL
+bigplot
 ggsave("posterPlot.png", bigplot)
 
 #Data-------
