@@ -1,3 +1,5 @@
+library(inauguration)
+
 # plot theme
 theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
     theme(plot.background  = element_rect(fill = "transparent", colour = NA),
@@ -27,7 +29,7 @@ theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
           panel.background = element_rect(fill="gray90", colour=NA),
           legend.background = element_rect(fill="transparent", colour=NA),
           legend.key = element_rect(fill="transparent", colour=NA),
-          panel.grid.major = element_line(colour = "white", size = 0.2), 
+          panel.grid.major = element_line(colour = "white", size = 0.5), 
           panel.grid.minor = element_line(colour = "grey98", size = 0.5))}
 inauguration5=inauguration("inauguration_2021", 5)
 plotData=read.csv("plotData.csv")
@@ -38,8 +40,8 @@ bigplot=ggplot(data=plotData,(aes(x=Variety, fill=Variety)))+
   theme_Caitlin_present()+
   theme(legend.position = "none", plot.caption = element_text(hjust = 0.5))+
   NULL
-bigplot
-ggsave("posterPlot.png", bigplot)
+
+ggsave("posterPlot.png", bigplot, width=10)
 
 #Data-------
 
