@@ -1,4 +1,6 @@
 library(inauguration)
+library(brms)
+
 
 # plot theme
 theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
@@ -14,14 +16,14 @@ pilotData=read.csv("pilotModelData.csv")
 head(pilotData, 10)
 
 #Pilot models
-pilotCorp=glm(FreqPapers.freq~pilotCorpus, data=pilotData, family=poisson)
+pilotCorp=brm(FreqPapers.freq~pilotCorpus, data=pilotData, family=poisson,
+	prior=set_prior("normal(0,5)"))
 summary(pilotCorp)
 
-pilotIncome=glm(FreqPapers.freq~AreaIncome, data=pilotData, family=poisson)
+pilotIncome=brm(FreqPapers.freq~AreaIncome, data=pilotData, family=poisson,
+	prior=set_prior("normal(0,1)"))
 summary(pilotIncome)
 
-bigModel=glm(FreqPapers.freq~AreaIncome+pilotCorpus, data=pilotData, family=poisson)
-summary(bigModel)
 
 library(ggplot2)
 theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
