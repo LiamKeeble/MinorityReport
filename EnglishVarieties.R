@@ -15,6 +15,8 @@ theme_Caitlin_present <- function() {theme_bw(base_size = 22) %+replace%
 pilotData=read.csv("pilotModelData.csv")
 head(pilotData, 10)
 
+pilotData$AreaIncome=(pilotData$AreaIncome-mean(pilotData$AreaIncome))/sd(pilotData$AreaIncome)
+
 #Pilot models
 pilotCorp=brm(FreqPapers.freq~pilotCorpus, data=pilotData, family=poisson,
 	prior=set_prior("normal(0,5)"))
