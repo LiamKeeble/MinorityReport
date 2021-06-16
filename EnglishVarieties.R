@@ -20,11 +20,11 @@ pilotData$AreaIncome=(pilotData$AreaIncome-mean(pilotData$AreaIncome))/sd(pilotD
 #Pilot models
 pilotCorp=brm(FreqPapers.freq~pilotCorpus, data=pilotData, family=poisson,
 	prior=set_prior("normal(0,5)"))
-summary(pilotCorp)
+summary(pilotCorp, waic=TRUE)
 
 pilotIncome=brm(FreqPapers.freq~AreaIncome, data=pilotData, family=poisson,
 	prior=set_prior("normal(0,1)"))
-summary(pilotIncome)
+summary(pilotIncome, waic=TRUE)
 
 
 library(ggplot2)
