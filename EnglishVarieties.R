@@ -58,35 +58,45 @@ data=read.csv("MinorityData.rda")
 
 #Are English varieties that are typically geographically distant from linguistics university departments understudied? --------
 
-GeoMod1=glm(FreqPapers~ProximityToLingDept, data=data, family=poisson)
+GeoMod1=brm(FreqPapers~ProximityToLingDept, data=data, family=poisson,
+	prior=set_prior("normal(0,1)"))
+summary(GeoMod1, waic=TRUE)
+plot(GeoMod1)
 
 
 GeoMod2=glm(FreqPapers~ProximityToUniversity, data=data, family=poisson)
-
+summary(GeoMod2, waic=TRUE)
+plot(GeoMod2)
 
 GeoMod3=glm(FreqPapers~ProximityToDegree, data=data, family=poisson)
+summary(GeoMod3, waic=true)
+plot(GeoMod3)
 
 
 GeoMod4=glm(FreqPapers~ProximityToVariationLab, data=data, family=poisson)
-
+summary(GeoMod4, waic=TRUE)
+plot(GeoMod4)
 
 #Do corpus' facilitate variation research?------
 CorpMod1=glm(FreqPapers~Corpus, data=data, family=poisson)
-
-
+summary(CorpMod1,waic=TRUE)
+plot(CorpMod1)
 
 #Are English varieties associated with higher social/income status lacking in research articles?-------
 
 StatusMod2=glm(FreqPapers~AreaIncome, data=data, family=poisson)
-
+summary(StatusMod2, waic=TRUE)
+plot(StatusMod2)
 
 #Is most research conducted on varieties of English typically associated with suburban, as opposed to metropolitan or rural, areas?------
 
 UrbanMod1=glm(FreqPapers~Metropolitan, data=data, family=poisson)
+summary(UrbanMod1, waic=TRUE)
+plot(UrbanMod1)
 
 UrbanMod2=glm(FreqPapers~ProximityToCityCentre, data=data, family=poisson)
-
-
+summary(UrbanMod2, waic=TRUE)
+plot(UrbanMod2)
 
 
 
