@@ -22,11 +22,11 @@ register_google(key = "")
 set.seed(111)
 
 
-EnglishVariety=c("Chesire","Cumbrian","Tyneside","Hartlepool","Lancashire","Sunderland","Mancunian","Northumbrian","County Durham","Merseyside","Teesside","Yorkshire","Lincolnshire","East Lincolnshire","Black Country","Birmingham","North Staffordshire","Coventry","Norfolk","Suffolk","London","Essex","Hampshire","Porstmouth","Kent","Sussex","Cornwall","Bristol","Plymouth","Dorset")
+EnglishVariety=c("Chesire","Cumbrian","Tyneside","Hartlepool","Lancashire","Sunderland","Mancunian","Northumbrian","County Durham","Merseyside","Teesside","Yorkshire","Lincolnshire","Black Country","Birmingham","Staffordshire","Coventry","Norfolk","Suffolk","London","Essex","Hampshire","Porstmouth","Kent","Sussex","Cornwall","Bristol","Plymouth","Dorset")
 
 
 
-VarietyLocation=c("Chesire","Cumbria","Newcastle upon Tyne","Hartlepool","Lancashire","Sunderland","Manchester","Northumbrian","County Durham","Merseyside","Teesside","Yorkshire","Lincolnshire","Lincolnshire","Black Country","Birmingham","Staffordshire","Coventry","Norfolk","Suffolk","London","Essex","Hampshire","Porstmouth","Kent","Sussex","Cornwall","Bristol","Plymouth","Dorset")
+VarietyLocation=c("Chesire","Cumbria","Newcastle upon Tyne","Hartlepool","Lancashire","Sunderland","Manchester","Northumbrian","County Durham","Merseyside","Teesside","Yorkshire","Lincolnshire","Black Country","Birmingham","Staffordshire","Coventry","Norfolk","Suffolk","London","Essex","Hampshire","Porstmouth","Kent","Sussex","Cornwall","Bristol","Plymouth","Dorset")
 
 pilotData=data.frame(EnglishVariety,VarietyLocation)
 
