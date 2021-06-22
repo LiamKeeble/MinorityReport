@@ -28,31 +28,29 @@ EnglishVariety=c("Chesire","Cumbrian","Tyneside","Hartlepool","Lancashire","Sund
 
 VarietyLocation=c("Chesire","Cumbria","Newcastle upon Tyne","Hartlepool","Lancashire","Sunderland","Manchester","Northumbrian","County Durham","Merseyside","Teesside","Yorkshire","Lincolnshire","Black Country","Birmingham","Staffordshire","Coventry","Norfolk","Suffolk","London","Essex","Hampshire","Porstmouth","Kent","Sussex","Cornwall","Bristol","Plymouth","Dorset")
 
-pilotData=data.frame(EnglishVariety,VarietyLocation)
+Data=data.frame(EnglishVariety,VarietyLocation)
 
-#Pilot dataset
-pilotData=pilotData[sample(1:nrow(pilotData), 10), ]
-print(pilotData)
+#dataset
+Data=pilotData[sample(1:nrow(pilotData), 10), ]
+print(Data)
 
+Data$pilotCorpus=c("No","No","Yes","No","No","No","No","Yes","No","No")
 
-pilotData$pilotCorpus=c("No","No","Yes","No","No","No","No","Yes","No","No")
+Data$NearestUniversity=c("University of Lincoln","Falmouth University","University of Suffolk", "University of East Anglia", "University of Birmingham", "University of Kent","University of Central Lancashire", "Newcastle University", "Northumbria University", "Staffordshire University")
 
-pilotData$NearestUniversity=c("University of Lincoln","Falmouth University","University of Suffolk", "University of East Anglia", "University of Birmingham", "University of Kent","University of Central Lancashire", "Newcastle University", "Northumbria University", "Staffordshire University")
-
-pilotData$AreaIncome=c(30.4,24.5,37.9,34.9,25.9,42.9,43,35.9,27.3,27)
+Data$AreaIncome=c(30.4,24.5,37.9,34.9,25.9,42.9,43,35.9,27.3,27)
 
 library(plyr)
-paperData=read.csv("pilotData.csv")
+paperData=read.csv("studyData.csv")
 paperData=subset(paperData, Removed=="No")
 write.csv(paperData, "plotData.csv")
 
 FreqPapers=count(paperData, vars="Variety")
-FreqPapers[nrow(FreqPapers)+1,]=c("Cornwall",0)
-FreqPapers[nrow(FreqPapers)+1,]=c("Suffolk",0)
-FreqPapers[nrow(FreqPapers)+1,]=c("Norfolk",0)
-FreqPapers[nrow(FreqPapers)+1,]=c("Lancashire",0)
-FreqPapers[nrow(FreqPapers)+1,]=c("Staffordshire",0)
-pilotData$FreqPapers=FreqPapers
+FreqPapers[nrow(FreqPapers)+1,]=c("Hartlepool",0)
+FreqPapers[nrow(FreqPapers)+1,]=c("Mancunian",0)
+FreqPapers[nrow(FreqPapers)+1,]=c("Teeside",0)
+FreqPapers[nrow(FreqPapers)+1,]=c("Dorset",0)
+Data$FreqPapers=FreqPapers
 
 #map1=mapdist("University of Lincoln","Lincolnshire")
 #map2=mapdist("Falmouth University","Cornwall")
@@ -67,58 +65,13 @@ pilotData$FreqPapers=FreqPapers
 #pilotData$ProximityToUniversity=rbind(map1,map2,map3,map4,map5,map6,map7,map8,map9,map10)
 
 
-head(pilotData,10)
+head(Data,10)
 
 
 
-write.csv(pilotData, "pilotModelData.csv")
+write.csv(Data, "ModelData.csv")
 
-
-#Final dataset
-
-NearestUniversity=c()
-
-Corpus=c()
-
-ActiveResearch=c()
-
-FreqPapers=c()
-  
-  
-Metropolitan=c()
-  
-  
-  
-AreaIncome=c()
 
   
-NearestLingDegree=c()
-
-NearestLab=c()
-
-NearestDept=c()
-
-NearestCityCentre=c()
-
-## Map Distances ----
-  
-  
-ProximityToUniversity=mapdist(data$VarietyLocation, data$NearestUniversity)
-
-
-ProximityToDegree=mapdist(data$VarietyLocation, data$NearestLingDegree)
-
-ProximityToVariationLab=mapdist(data$VarietyLocation, data$NearestLab)
-  
-  
-ProximityToLingDept=mapdist(data$VarietyLocation, data$NearestDept)
-  
-ProximityToCityCentre=mapdist(data$VarietyLocation, data$NearestCityCentre)
-
-## create data frame ----
-
-data=data.frame(c())
-
-write.csv()
 
 
