@@ -42,6 +42,7 @@ Data$AreaIncome=c(30.4,24.5,37.9,34.9,25.9,42.9,43,35.9,27.3,27)
 
 library(plyr)
 paperData=read.csv("studyData.csv")
+table(paperData$Reason/nrow(paperData$Reason))
 paperData=subset(paperData, Removed=="No")
 write.csv(paperData, "plotData.csv")
 
