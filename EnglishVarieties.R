@@ -52,7 +52,7 @@ ggsave("posterPlot.png", bigplot, width=10)
 
 
 
-data=read.csv("MinorityData.rda")
+data=read.csv("MinorityData.csv")
 
 
 
@@ -64,37 +64,44 @@ summary(GeoMod1, waic=TRUE)
 plot(GeoMod1)
 
 
-GeoMod2=glm(FreqPapers~ProximityToUniversity, data=data, family=poisson)
+GeoMod2=brm(FreqPapers~ProximityToUniversity, data=data, family=poisson,
+	prior=set_prior("normal(0,1)"))
 summary(GeoMod2, waic=TRUE)
 plot(GeoMod2)
 
-GeoMod3=glm(FreqPapers~ProximityToDegree, data=data, family=poisson)
+GeoMod3=brm(FreqPapers~ProximityToDegree, data=data, family=poisson,
+	prior=set_prior("normal(0,1)"))
 summary(GeoMod3, waic=true)
 plot(GeoMod3)
 
 
-GeoMod4=glm(FreqPapers~ProximityToVariationLab, data=data, family=poisson)
+GeoMod4=brm(FreqPapers~ProximityToVariationLab, data=data, family=poisson,
+	prior=set_prior("normal(0,1)"))
 summary(GeoMod4, waic=TRUE)
 plot(GeoMod4)
 
 #Do corpus' facilitate variation research?------
-CorpMod1=glm(FreqPapers~Corpus, data=data, family=poisson)
+CorpMod1=brm(FreqPapers~Corpus, data=data, family=poisson,
+	prior=set_prior("normal(0,1)"))
 summary(CorpMod1,waic=TRUE)
 plot(CorpMod1)
 
 #Are English varieties associated with higher social/income status lacking in research articles?-------
 
-StatusMod2=glm(FreqPapers~AreaIncome, data=data, family=poisson)
+StatusMod2=brm(FreqPapers~AreaIncome, data=data, family=poisson,
+	prior=set_prior("normal(0,1)"))
 summary(StatusMod2, waic=TRUE)
 plot(StatusMod2)
 
 #Is most research conducted on varieties of English typically associated with suburban, as opposed to metropolitan or rural, areas?------
 
-UrbanMod1=glm(FreqPapers~Metropolitan, data=data, family=poisson)
+UrbanMod1=brm(FreqPapers~Metropolitan, data=data, family=poisson,
+	prior=set_prior("normal(0,1)"))
 summary(UrbanMod1, waic=TRUE)
 plot(UrbanMod1)
 
-UrbanMod2=glm(FreqPapers~ProximityToCityCentre, data=data, family=poisson)
+UrbanMod2=brm(FreqPapers~ProximityToCityCentre, data=data, family=poisson,
+	prior=set_prior("normal(0,1)"))
 summary(UrbanMod2, waic=TRUE)
 plot(UrbanMod2)
 
