@@ -55,8 +55,10 @@ locations <- c("Birmingham, UK",
                     "Newcastle upon Tyne, UK",
                     "Yorkshire, UK")
 locations.data <- locations %>%
-  geocode()
-df1 <- locations.data %>% 
+  geocode() %>% 
+  rename(var.lon=lon) %>% 
+  rename(var.lat=lat)
+tibble1 <- locations.data %>% 
   add_column(variety_name = EnglishVarieties) %>% 
   add_column(locations)
 # UK Map ####
@@ -65,7 +67,7 @@ UK <- map_data(map = "world", region = "UK") %>%
 
 UK_white <- ggplot(data = UK, aes(x = lon, y = lat)) + 
   geom_polygon(fill="white") +
-  geom_point(data = df1, size = 1) +
+  geom_point(data = tibble1, size = 1) +
   scale_y_continuous(breaks=NULL,limits=c(50,56))+
   scale_x_continuous(breaks=NULL, limits=c(-6,2))+
   coord_fixed(1.6)+
@@ -76,7 +78,7 @@ UK_white <- ggplot(data = UK, aes(x = lon, y = lat)) +
         axis.text.y=element_blank(),
         axis.ticks.y=element_blank(),
   )+
-  geom_text(data = df1, aes(label = variety_name),
+  geom_text(data = tibble1, aes(label = variety_name),
             colour = "#000000", size=1.75
             , nudge_x = 0.5)+
   NULL
@@ -155,7 +157,17 @@ uniling <- c("University of Birmingham",
              "Newcastle University",
              "York St John University")
 uniling.locations <- uniling %>% 
-  geocode()
-df2 <- df1 %>% 
-  add_column(uniling) %>% 
-  mutate(mapdist=mapdist(from=locations,to=uniling))
+  geocode() %>% 
+  rename(uni.lon=lon) %>% 
+  rename(uni.lat=lat)
+mapdist.tibble <- mapdist(from=locations,to=uniling)
+
+tibble2 <- tibble1 %>% 
+  add_column(uniling) %>%
+  add_column(uniling.locations) %>% 
+  add_column(mapdist.tibble) %>% 
+  select(var.lon,var.lat,variety_name,locations,uniling,uni.lon,uni.lat, m, km, miles, minutes, hours,mode)
+  
+  
+  
+write_csv(tibble2, file = "distances-data.csv")
