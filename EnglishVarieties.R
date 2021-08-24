@@ -67,7 +67,11 @@ AreaIncome=c(16932,16932,16932,16861,18984,15809,16885,16861,16932,22568,22568,1
 data=data.frame(data,FreqPapers,Corpus,AreaIncome)
 head(data)
 
+
 #Are English varieties that are typically geographically distant from linguistics university departments understudied? --------
+
+
+data$miles=data$miles/max(data$miles)
 
 GeoMod1=brm(FreqPapers~miles, data=data, family=poisson,
 	prior=set_prior("normal(0,3)"))
@@ -77,16 +81,28 @@ plot(GeoMod1)
 
 #Do corpus' facilitate variation research?------
 CorpMod1=brm(FreqPapers~Corpus, data=data, family=poisson,
-	prior=set_prior("normal(0,1)"))
+	prior=set_prior("normal(0,3)"))
 summary(CorpMod1,waic=TRUE)
+
+jpeg("new.jpg",width=700,height=700)
 plot(CorpMod1)
+dev.off()
+
+
 
 #Are English varieties associated with higher social/income status lacking in research articles?-------
 
+
+data$AreaIncome=data$AreaIncome/max(data$AreaIncome)
+
 StatusMod2=brm(FreqPapers~AreaIncome, data=data, family=poisson,
-	prior=set_prior("normal(0,1)"))
+	prior=set_prior("normal(0,3)"))
 summary(StatusMod2, waic=TRUE)
 plot(StatusMod2)
+
+
+
+
 
 #Is most research conducted on varieties of English typically associated with suburban, as opposed to metropolitan or rural, areas?------
 

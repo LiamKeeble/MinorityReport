@@ -14,7 +14,7 @@
 
 }{
 %%%% Bottom space
-	\includegraphics[scale=0.4]{posterPlot.png}
+	\includegraphics[scale=1.5]{new.jpg}
 	\compactqrcode{frame-2.png}{Scan to access materials for this study on Github.}
 }
 
@@ -58,34 +58,33 @@ In order to meet our aims we:
 		\item the study assesses language variation or change
 		\item study assesses the variety of English specified in the search
 	\end{itemize}
-	\item The remaining studies from each search were counted and the frequency of papers found per variety calculated.
+	\item The remaining studies from each search were counted.
 
+	\item Regional average uk disposable incomes were obtained from the office for national statistics.
+	\item The existence of corpora for a variety was obtained by google searches.
+	\item Geographical distance between a variety and the nearest linguistics dept. were obtained using the ggmaps package in R.
 \end{itemize}
 
 
 
-\section{Pilot results}
-
-For pilot data, we randomly sampled 10 varieties of English from all varieties found on the aforementioned wikipedia page, and searched for studies of language change in these varieties. These varieties were `Black Country', `Kent', `Lancashire', `Lincolnshire', `Tyneside', `Cornwall', `Suffolk', `Norfolk', `Northumbrian', `Staffordshire'.
+\section{Results}
 
 \vspace{1cm}
-
-\textbf{Table 1}. Poisson glm with area income and corpus existence as predictors of study frequency on a variety.
+\textbf{Table 1}. Poisson glms with area income, miles to nearest linguistics dept. and corpus existence as respective predictors of study frequency on a variety.
 
 \begin{tabular}{ c c c }
 	& Estimate & stand. error\\
 	\hline
-	Intercept & 4.25 & 2.52	\\
-	Area income & -0.14 & 0.09\\
-	Corpus? & 0.39 & 1.35 \\
+	Intercept & 1.03 & 1.79	\\
+	Area income & -2.21 & 2.31\\
+	\hline
+	Intercept & -0.92 & 0.34  \\
+	Corpus & 1.04 & 0.63 \\
+	\hline
+	Intercept & -0.65  & 0.39  \\
+	Miles & -0.18  & 0.92  \\
 \hline
 \end{tabular}
-
-\section{Questions from the pilot}
-\begin{itemize}
-	\item How do we narrow down the search terms?
-	\item What do we do about edge cases such as studies of change using anecdotal data?
-\end{itemize}
 
 
 
