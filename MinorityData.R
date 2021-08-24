@@ -14,10 +14,6 @@ package.check <- lapply(
 )
 ## If a package is installed, it will be loaded. If any are not, the missing package(s) will be installed from CRAN and then loaded.
 
-## Google API key ----
-
-register_google(key = "")
-
 ## Variety Lists ----
 set.seed(111)
 

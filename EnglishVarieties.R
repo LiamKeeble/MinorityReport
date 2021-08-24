@@ -52,33 +52,28 @@ ggsave("posterPlot.png", bigplot, width=10)
 
 
 
-data=read.csv("MinorityData.csv")
+data=read.csv("distances-data.csv")
+count=read.csv("studyData.csv")
+count=subset(count, Removed=="No")
+head(count)
 
+count=data.frame(table(count$Variety))
+count
 
+FreqPapers=c(1,1,2,0,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,3,0,0,1,1)
+Corpus=c(1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0)
+AreaIncome=c(16932,16932,16932,16861,18984,15809,16885,16861,16932,22568,22568,16861,16932,16861,16932,15809,18984,18984,16885,16932,15809,22568,15809,16119)
+
+data=data.frame(data,FreqPapers,Corpus,AreaIncome)
+head(data)
 
 #Are English varieties that are typically geographically distant from linguistics university departments understudied? --------
 
-GeoMod1=brm(FreqPapers~ProximityToLingDept, data=data, family=poisson,
-	prior=set_prior("normal(0,1)"))
+GeoMod1=brm(FreqPapers~miles, data=data, family=poisson,
+	prior=set_prior("normal(0,3)"))
 summary(GeoMod1, waic=TRUE)
 plot(GeoMod1)
 
-
-GeoMod2=brm(FreqPapers~ProximityToUniversity, data=data, family=poisson,
-	prior=set_prior("normal(0,1)"))
-summary(GeoMod2, waic=TRUE)
-plot(GeoMod2)
-
-GeoMod3=brm(FreqPapers~ProximityToDegree, data=data, family=poisson,
-	prior=set_prior("normal(0,1)"))
-summary(GeoMod3, waic=true)
-plot(GeoMod3)
-
-
-GeoMod4=brm(FreqPapers~ProximityToVariationLab, data=data, family=poisson,
-	prior=set_prior("normal(0,1)"))
-summary(GeoMod4, waic=TRUE)
-plot(GeoMod4)
 
 #Do corpus' facilitate variation research?------
 CorpMod1=brm(FreqPapers~Corpus, data=data, family=poisson,
