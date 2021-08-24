@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.22)  24 AUG 2021 07:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.22)  24 AUG 2021 08:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,130 +528,130 @@ LaTeX Info: Redefining \nameref on input line 5.
 \openout3 = `uklvcposter.out'.
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 32.0pt on input line 91.
+(Font)              scaled to size 32.0pt on input line 94.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 80.0pt on input line 91.
+(Font)              scaled to size 80.0pt on input line 94.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 80.0pt on input line 91.
+(Font)              scaled to size 80.0pt on input line 94.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 48.0pt on input line 91.
+(Font)              scaled to size 48.0pt on input line 94.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 48.0pt on input line 91.
+(Font)              scaled to size 48.0pt on input line 94.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 91.
+ine 94.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/lato/TS1lato-TLF.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 32.0pt on input line 91.
+(Font)              scaled to size 32.0pt on input line 94.
 
-Underfull \hbox (badness 2460) in paragraph at lines 91--91
+Underfull \hbox (badness 2460) in paragraph at lines 94--94
 \T1/lato-TLF/m/n/32 that may af-fects the fre-quency of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 32.0pt on input line 91.
+(Font)              scaled to size 32.0pt on input line 94.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 []\T1/lato-TLF/m/n/32 Search Term: (WC=(Linguistics)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 \T1/lato-TLF/m/n/32 AND ((ALL="name of va-ri-ety")
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 \T1/lato-TLF/m/n/32 AND ((ALL=sociolinguist*) OR
  []
 
 LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line
- 91.
+ 94.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cmbright/omlcmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line
- 91.
+ 94.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/cmbright/omscmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 116.0pt on input line 91.
+(Font)              scaled to size 116.0pt on input line 94.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 116.0pt on input line 91.
+(Font)              scaled to size 116.0pt on input line 94.
 <new.jpg, id=6, 702.625pt x 702.625pt>
 File: new.jpg Graphic file (type jpg)
 <use new.jpg>
-Package pdftex.def Info: new.jpg  used on input line 91.
+Package pdftex.def Info: new.jpg  used on input line 94.
 (pdftex.def)             Requested size: 1053.9349pt x 1053.9349pt.
 <frame-2.png, id=7, 3011.25pt x 3011.25pt>
 File: frame-2.png Graphic file (type png)
 <use frame-2.png>
-Package pdftex.def Info: frame-2.png  used on input line 91.
+Package pdftex.def Info: frame-2.png  used on input line 94.
 (pdftex.def)             Requested size: 506.64589pt x 506.62172pt.
 
-Underfull \hbox (badness 2644) in paragraph at lines 91--91
+Underfull \hbox (badness 2644) in paragraph at lines 94--94
 []\T1/lato-TLF/m/n/32 Scan to ac-cess ma-te-ri-als for this
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
 
-Underfull \hbox (badness 7740) in paragraph at lines 91--91
+Underfull \hbox (badness 7740) in paragraph at lines 94--94
 []\T1/lato-TLF/m/n/32 The re-main-ing stud-ies from each
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 91--91
+Underfull \hbox (badness 2103) in paragraph at lines 94--94
 []\T1/lato-TLF/m/n/32 Regional av-er-age uk dis-pos-able in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 94--94
 
  []
 
-LaTeX Font Info:    Calculating math sizes for size <32> on input line 91.
+LaTeX Font Info:    Calculating math sizes for size <32> on input line 94.
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./new.j
@@ -662,7 +662,7 @@ Package rerunfilecheck Info: File `uklvcposter.out' has not changed.
 Here is how much of TeX's memory you used:
  10941 strings out of 478994
  159554 string characters out of 5858184
- 476985 words of memory out of 5000000
+ 477985 words of memory out of 5000000
  28249 multiletter control sequences out of 15000+600000
  612075 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -671,7 +671,7 @@ Here is how much of TeX's memory you used:
 ocal/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}</usr/local/texl
 ive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on uklvcposter.pdf (1 page, 278790 bytes).
+Output written on uklvcposter.pdf (1 page, 280227 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream

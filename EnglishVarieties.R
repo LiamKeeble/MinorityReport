@@ -63,8 +63,10 @@ count
 FreqPapers=c(1,1,2,0,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,3,0,0,1,1)
 Corpus=c(1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0)
 AreaIncome=c(16932,16932,16932,16861,18984,15809,16885,16861,16932,22568,22568,16861,16932,16861,16932,15809,18984,18984,16885,16932,15809,22568,15809,16119)
+Metropolitan=c(1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,1,0)
 
-data=data.frame(data,FreqPapers,Corpus,AreaIncome)
+
+data=data.frame(data,FreqPapers,Corpus,AreaIncome,Metropolitan)
 head(data)
 
 
@@ -110,11 +112,6 @@ UrbanMod1=brm(FreqPapers~Metropolitan, data=data, family=poisson,
 	prior=set_prior("normal(0,1)"))
 summary(UrbanMod1, waic=TRUE)
 plot(UrbanMod1)
-
-UrbanMod2=brm(FreqPapers~ProximityToCityCentre, data=data, family=poisson,
-	prior=set_prior("normal(0,1)"))
-summary(UrbanMod2, waic=TRUE)
-plot(UrbanMod2)
 
 
 
