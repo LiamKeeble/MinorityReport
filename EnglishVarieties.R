@@ -54,13 +54,13 @@ ggsave("posterPlot.png", bigplot, width=10)
 
 data=read.csv("distances-data.csv")
 count=read.csv("studyData.csv")
-count=subset(count, Removed=="No")
+count=subset(count, Removed=="N")
 head(count)
 
 count=data.frame(table(count$Variety))
-count
+write.csv(count, "counts.csv")
 
-FreqPapers=c(1,1,2,0,1,0,1,0,2,0,0,0,0,0,0,0,0,0,0,3,0,0,1,1)
+FreqPapers=c(1,1,2,0,1,0,1,0,2,0,0,2,0,0,0,1,0,0,0,3,1,0,14,1)
 Corpus=c(1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0)
 AreaIncome=c(16932,16932,16932,16861,18984,15809,16885,16861,16932,22568,22568,16861,16932,16861,16932,15809,18984,18984,16885,16932,15809,22568,15809,16119)
 Metropolitan=c(1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,1,0,1,0)
@@ -112,6 +112,15 @@ UrbanMod1=brm(FreqPapers~Metropolitan, data=data, family=poisson,
 	prior=set_prior("normal(0,1)"))
 summary(UrbanMod1, waic=TRUE)
 plot(UrbanMod1)
+
+
+
+
+
+
+
+
+
 
 
 

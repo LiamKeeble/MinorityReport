@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.22)  24 AUG 2021 08:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.22)  26 AUG 2021 12:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -671,7 +671,7 @@ Here is how much of TeX's memory you used:
 ocal/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}</usr/local/texl
 ive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on uklvcposter.pdf (1 page, 280329 bytes).
+Output written on uklvcposter.pdf (1 page, 277453 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
