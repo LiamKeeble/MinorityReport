@@ -85,11 +85,7 @@ plot(GeoMod1)
 CorpMod1=brm(FreqPapers~Corpus, data=data, family=poisson,
 	prior=set_prior("normal(0,3)"))
 summary(CorpMod1,waic=TRUE)
-
-jpeg("new.jpg",width=700,height=700)
 plot(CorpMod1)
-dev.off()
-
 
 
 #Are English varieties associated with higher social/income status lacking in research articles?-------
@@ -109,7 +105,7 @@ plot(StatusMod2)
 #Is most research conducted on varieties of English typically associated with suburban, as opposed to metropolitan or rural, areas?------
 
 UrbanMod1=brm(FreqPapers~Metropolitan, data=data, family=poisson,
-	prior=set_prior("normal(0,1)"))
+	prior=set_prior("normal(0,3)"))
 summary(UrbanMod1, waic=TRUE)
 plot(UrbanMod1)
 
@@ -117,10 +113,12 @@ plot(UrbanMod1)
 
 
 
+#Full model
 
+full=brm(FreqPapers~Corpus+AreaIncome+Metropolitan*miles, data=data, family=poisson, prior=set_prior("normal(0,3)"))
+summary(full, waic=TRUE)
 
-
-
-
-
+jpeg("new.jpg", width=700, height=700)
+plot(full, pars=c("Corpus","AreaIncome","Metropolitan","miles","Metropolitan:miles"))
+dev.off()
 
