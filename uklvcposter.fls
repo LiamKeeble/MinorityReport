@@ -706,6 +706,11 @@ INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbrbs8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbrbs8.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Regular-T1-TLF.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/typoland/lato/Lato-Bold-T1-TLF.tfm
+INPUT ./incomemap-small.png
+INPUT ./incomemap-small.png
+INPUT incomemap-small.png
+INPUT ./incomemap-small.png
+INPUT ./incomemap-small.png
 INPUT ./frame-2.png
 INPUT ./frame-2.png
 INPUT frame-2.png
