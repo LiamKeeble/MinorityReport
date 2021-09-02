@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1630596029 "uklvcposter.tex" "uklvcposter.pdf" "uklvcposter" 1630596030
+["pdflatex"] 1630597421 "uklvcposter.tex" "uklvcposter.pdf" "uklvcposter" 1630597422
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1561498483 2908 33404fff2a7b8e169974e96af0be5333 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc" 1561498483 3345 f5bff336afd6959239b79815a9c623d1 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -101,9 +101,9 @@
   "betterposter.cls" 1629438423 5529 4a4261f13f6e624cf5cd74113c3d61ec ""
   "frame-2.png" 1629438423 184753 8cd266346e309a59b8c751cde1130971 ""
   "new.jpg" 1630595414 22186 337871ad90cf37c68771c9228f3feb0d ""
-  "uklvcposter.aux" 1630596030 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
-  "uklvcposter.out" 1630596029 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "uklvcposter.tex" 1630596027 2893 e7ccd3d48841d760fc30499346f7d3d2 ""
+  "uklvcposter.aux" 1630597422 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
+  "uklvcposter.out" 1630597422 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "uklvcposter.tex" 1630597420 2894 923f88fc79088a01b9a87c8207fb04cc ""
   (generated)
   "uklvcposter.aux"
   "uklvcposter.log"
