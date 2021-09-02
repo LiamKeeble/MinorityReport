@@ -118,7 +118,12 @@ plot(UrbanMod1)
 full=brm(FreqPapers~Corpus+AreaIncome+Metropolitan*miles, data=data, family=poisson, prior=set_prior("normal(0,3)"))
 summary(full, waic=TRUE)
 
-jpeg("new.jpg", width=700, height=700)
-plot(full, pars=c("Corpus","AreaIncome","Metropolitan","miles","Metropolitan:miles"))
+
+jpeg("new.jpg")
+stanplot(full,pars=c("Corpus","AreaIncome","Metropolitan","miles","Metropolitan:miles")) + theme(text=element_text(size=30))
 dev.off()
+
+
+
+
 

@@ -1,12 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1629979501 "uklvcposter.tex" "uklvcposter.pdf" "uklvcposter" 1629979502
+["pdflatex"] 1630596029 "uklvcposter.tex" "uklvcposter.pdf" "uklvcposter" 1630596030
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc" 1561498483 2908 33404fff2a7b8e169974e96af0be5333 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_rt66h3.enc" 1561498483 3345 f5bff336afd6959239b79815a9c623d1 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbr10.tfm" 1136768653 1304 95ad082f6791446dc43df559d5c79878 ""
-  "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbr17.tfm" 1136768653 1292 864850248589e7d3af41afc829d0eaf3 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbr8.tfm" 1136768653 1304 6f575d26e34fea6311d7ae3e9a5bf8d0 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbras10.tfm" 1136768653 848 1ad7f1561396ccf4a79d2f57e14bf3a9 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cmbright/cmbras8.tfm" 1136768653 852 e8c0fa95ccb34adce23fd4bfeb3ad1f7 ""
@@ -102,12 +100,12 @@
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
   "betterposter.cls" 1629438423 5529 4a4261f13f6e624cf5cd74113c3d61ec ""
   "frame-2.png" 1629438423 184753 8cd266346e309a59b8c751cde1130971 ""
-  "new.jpg" 1629979197 103801 092ca7ff83f8ed8789836a0ca0d9ea51 ""
-  "uklvcposter.aux" 1629979502 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
-  "uklvcposter.out" 1629979501 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "uklvcposter.tex" 1629979447 3270 df8966cd3de023efaa0577ed6ba2d682 ""
+  "new.jpg" 1630595414 22186 337871ad90cf37c68771c9228f3feb0d ""
+  "uklvcposter.aux" 1630596030 686 e6bf9f11827e1eae1d85e75b99e0a183 "pdflatex"
+  "uklvcposter.out" 1630596029 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "uklvcposter.tex" 1630596027 2893 e7ccd3d48841d760fc30499346f7d3d2 ""
   (generated)
-  "uklvcposter.pdf"
-  "uklvcposter.out"
-  "uklvcposter.log"
   "uklvcposter.aux"
+  "uklvcposter.log"
+  "uklvcposter.out"
+  "uklvcposter.pdf"
