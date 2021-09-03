@@ -40,7 +40,7 @@ incomeColScale <- scale_colour_manual(name = "AreaIncome",values=incomeColours)
 
 map_income <- ggplot(data = UK, aes(x = lon, y = lat)) + 
   geom_polygon(fill="white") +
-  scale_y_continuous(breaks=NULL,limits=c(50,56))+
+  scale_y_continuous(breaks=NULL,limits=c(50,55.5))+
   scale_x_continuous(breaks=NULL, limits=c(-6,2))+
   coord_fixed(1.6)+
   theme(axis.title.x=element_blank(),
@@ -50,19 +50,30 @@ map_income <- ggplot(data = UK, aes(x = lon, y = lat)) +
         axis.text.y=element_blank(),
         axis.ticks.y=element_blank(),
         panel.background = element_rect(fill = 'lightblue'),
-        legend.key.height = unit(5, 'cm'), #change legend key height
-        legend.key.width = unit(3, 'cm'), #change legend key width
-        legend.title = element_text(size=40), #change legend title font size
-        legend.text = element_text(size=40) #change legend text font size
+        # legend.key.height = unit(0.1, 'cm'), #change legend key height
+        # legend.key.width = unit(0.025, 'cm'), #change legend key width
+        legend.title = element_text(size=8), #change legend title font size
+        legend.text = element_text(size=8) #change legend text font size
   )+
-  geom_text(data = data_all, aes(label = variety_name,x=var.lon,y=var.lat),
-            colour = "#000000", size=4.5)+
-  geom_point(data = data_all, aes(x=var.lon,y=var.lat,color=AreaIncome), size=data_all$FreqPapers,alpha=0.5)+
+  geom_text(data = data_all %>% filter(!variety_name %in% c("Black_Country","Sunderland","Coventry")), aes(label = variety_name,x=var.lon,y=var.lat),
+            colour = "#000000", size=2.7)+
+  geom_text(data = data_all %>% filter(variety_name == "Black_Country"), aes(label = variety_name,x=var.lon,y=var.lat),
+            colour = "#000000", size=2.7,
+            nudge_y = 0.09)+
+  geom_text(data = data_all %>% filter(variety_name == "Sunderland"), aes(label = variety_name,x=var.lon,y=var.lat),
+            colour = "#000000", size=2.7,
+            nudge_y = -0.05)+
+  geom_text(data = data_all %>% filter(variety_name == "Coventry"), aes(label = variety_name,x=var.lon,y=var.lat),
+            colour = "#000000", size=2.7,
+            nudge_y = -0.07)+
+  geom_point(data = data_all, aes(x=var.lon,y=var.lat,color=AreaIncome,size=FreqPapers), alpha=0.5)+
+  geom_point(data=data_all,aes(x=var.lon,y=var.lat,size = FreqPapers), shape = 1,colour = "darkgrey")+
+  scale_size(range = c(3,15)) +
   scale_colour_continuous(type="viridis",begin=1,end=0)+
   NULL
 map_income
 
-ggsave("incomemap.png", map_income,height=15,width=15,units="in")
+ggsave("incomemap.png", map_income,height=5,width=5,units="in")
 
 
 map_income_small <- ggplot(data = UK, aes(x = lon, y = lat)) + 
