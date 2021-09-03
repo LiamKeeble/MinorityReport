@@ -52,28 +52,31 @@ map_income <- ggplot(data = UK, aes(x = lon, y = lat)) +
         panel.background = element_rect(fill = 'lightblue'),
         # legend.key.height = unit(0.1, 'cm'), #change legend key height
         # legend.key.width = unit(0.025, 'cm'), #change legend key width
-        legend.title = element_text(size=8), #change legend title font size
-        legend.text = element_text(size=8) #change legend text font size
+        legend.title = element_text(size=24), #change legend title font size
+        legend.text = element_text(size=24) #change legend text font size
   )+
-  geom_text(data = data_all %>% filter(!variety_name %in% c("Black_Country","Sunderland","Coventry")), aes(label = variety_name,x=var.lon,y=var.lat),
-            colour = "#000000", size=2.7)+
+  geom_text(data = data_all %>% filter(!variety_name %in% c("Black_Country","Sunderland","Coventry","Tyneside")), aes(label = variety_name,x=var.lon,y=var.lat),
+            colour = "#000000", size=8, nudge_x=0.5)+
   geom_text(data = data_all %>% filter(variety_name == "Black_Country"), aes(label = variety_name,x=var.lon,y=var.lat),
-            colour = "#000000", size=2.7,
-            nudge_y = 0.09)+
+            colour = "#000000", size=8,
+            nudge_y = 0.09, nudge_x=0.5)+
   geom_text(data = data_all %>% filter(variety_name == "Sunderland"), aes(label = variety_name,x=var.lon,y=var.lat),
-            colour = "#000000", size=2.7,
-            nudge_y = -0.05)+
+            colour = "#000000", size=8,
+            nudge_y = -0.05, nudge_x=0.5)+
+  geom_text(data = data_all %>% filter(variety_name == "Tyneside"), aes(label = variety_name,x=var.lon,y=var.lat),
+            colour = "#000000", size=8,
+            nudge_y = 0.05, nudge_x=0.5)+
   geom_text(data = data_all %>% filter(variety_name == "Coventry"), aes(label = variety_name,x=var.lon,y=var.lat),
-            colour = "#000000", size=2.7,
-            nudge_y = -0.07)+
+            colour = "#000000", size=8,
+            nudge_y = -0.07, nudge_x=0.5)+
   geom_point(data = data_all, aes(x=var.lon,y=var.lat,color=AreaIncome,size=FreqPapers), alpha=0.5)+
-  geom_point(data=data_all,aes(x=var.lon,y=var.lat,size = FreqPapers), shape = 1,colour = "darkgrey")+
-  scale_size(range = c(3,15)) +
+  geom_point(data=data_all,aes(x=var.lon,y=var.lat,size = FreqPapers), shape = 1,colour = "grey10")+
+  scale_size(range = c(9,45)) +
   scale_colour_continuous(type="viridis",begin=1,end=0)+
   NULL
 map_income
 
-ggsave("incomemap.png", map_income,height=5,width=5,units="in")
+ggsave("incomemap.png", map_income,height=15,width=15,units="in")
 
 
 map_income_small <- ggplot(data = UK, aes(x = lon, y = lat)) + 

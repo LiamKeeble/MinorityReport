@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.29)  3 SEP 2021 12:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.29)  3 SEP 2021 12:48
 entering extended mode
 **./uklvcposter.tex
 (uklvcposter.tex
@@ -592,133 +592,138 @@ LaTeX Info: Redefining \nameref on input line 4.
 \openout3 = `uklvcposter.out'.
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 32.0pt on input line 80.
+(Font)              scaled to size 32.0pt on input line 78.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 80.0pt on input line 80.
+(Font)              scaled to size 80.0pt on input line 78.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 80.0pt on input line 80.
+(Font)              scaled to size 80.0pt on input line 78.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 48.0pt on input line 80.
+(Font)              scaled to size 48.0pt on input line 78.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 48.0pt on input line 80.
+(Font)              scaled to size 48.0pt on input line 78.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 80.
+ine 78.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/lato\ts1lato
 -tlf.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 32.0pt on input line 80.
+(Font)              scaled to size 32.0pt on input line 78.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 32.0pt on input line 80.
+(Font)              scaled to size 32.0pt on input line 78.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []\T1/lato-TLF/m/n/32 Search Term: (WC=(Linguistics)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \T1/lato-TLF/m/n/32 AND ((ALL="name of va-ri-ety")
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 \T1/lato-TLF/m/n/32 AND ((ALL=sociolinguist*) OR
  []
 
 LaTeX Font Info:    Trying to load font information for OML+cmbrm on input line
- 80.
+ 78.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\oml
 cmbrm.fd
 File: omlcmbrm.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Trying to load font information for OMS+cmbrs on input line
- 80.
+ 78.
 
 (C:\Users\Caitlin Halfacre\AppData\Local\Programs\MiKTeX\tex/latex/cmbright\oms
 cmbrs.fd
 File: omscmbrs.fd 2005/04/13 v8.1 (WaS)
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 116.0pt on input line 80.
+(Font)              scaled to size 116.0pt on input line 78.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 116.0pt on input line 80.
+(Font)              scaled to size 116.0pt on input line 78.
 <incomemap.png, id=5, 1084.05pt x 1084.05pt>
 File: incomemap.png Graphic file (type png)
 <use incomemap.png>
-Package pdftex.def Info: incomemap.png  used on input line 80.
+Package pdftex.def Info: incomemap.png  used on input line 78.
 (pdftex.def)             Requested size: 1084.04736pt x 1084.04736pt.
 <frame-2.png, id=6, 3011.25pt x 3011.25pt>
 File: frame-2.png Graphic file (type png)
 <use frame-2.png>
-Package pdftex.def Info: frame-2.png  used on input line 80.
+Package pdftex.def Info: frame-2.png  used on input line 78.
 (pdftex.def)             Requested size: 506.64589pt x 506.62172pt.
 
-Underfull \hbox (badness 2644) in paragraph at lines 80--80
+Underfull \hbox (badness 2644) in paragraph at lines 78--78
 []\T1/lato-TLF/m/n/32 Scan to ac-cess ma-te-ri-als for this
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
  []
 
 
-Underfull \hbox (badness 7740) in paragraph at lines 80--80
+Underfull \hbox (badness 7740) in paragraph at lines 78--78
 []\T1/lato-TLF/m/n/32 The re-main-ing stud-ies from each
  []
 
 
-Underfull \hbox (badness 2103) in paragraph at lines 80--80
+Underfull \hbox (badness 2103) in paragraph at lines 78--78
 []\T1/lato-TLF/m/n/32 Regional av-er-age uk dis-pos-able in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 78--78
+[]\T1/lato-TLF/m/n/32 The fig-ure be-low shows the re-la-
  []
 
 <new.jpg, id=8, 481.8pt x 481.8pt>
 File: new.jpg Graphic file (type jpg)
 <use new.jpg>
-Package pdftex.def Info: new.jpg  used on input line 80.
+Package pdftex.def Info: new.jpg  used on input line 78.
 (pdftex.def)             Requested size: 529.98163pt x 529.98163pt.
 [1
 
@@ -730,7 +735,7 @@ Package rerunfilecheck Info: File `uklvcposter.out' has not changed.
 Here is how much of TeX's memory you used:
  11060 strings out of 478864
  167168 string characters out of 2843410
- 493386 words of memory out of 3000000
+ 494386 words of memory out of 3000000
  28806 multiletter control sequences out of 15000+600000
  607500 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -740,7 +745,7 @@ Here is how much of TeX's memory you used:
 c/dvips/lato/a_cl4kdn.enc}<C:/Users/Caitlin Halfacre/AppData/Local/Programs/MiK
 TeX/fonts/type1/typoland/lato/Lato-Bold.pfb><C:/Users/Caitlin Halfacre/AppData/
 Local/Programs/MiKTeX/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on uklvcposter.pdf (1 page, 776449 bytes).
+Output written on uklvcposter.pdf (1 page, 783806 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
