@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.22)  2 SEP 2021 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.4.22)  3 SEP 2021 08:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,11 +570,6 @@ File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
 (Font)              scaled to size 32.0pt on input line 80.
 
-Underfull \hbox (badness 2460) in paragraph at lines 80--80
-\T1/lato-TLF/m/n/32 that may af-fects the fre-quency of
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 80--80
 
  []
@@ -675,7 +670,7 @@ Here is how much of TeX's memory you used:
 ocal/texlive/2021/texmf-dist/fonts/enc/dvips/lato/a_cl4kdn.enc}</usr/local/texl
 ive/2021/texmf-dist/fonts/type1/typoland/lato/Lato-Bold.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/typoland/lato/Lato-Regular.pfb>
-Output written on uklvcposter.pdf (1 page, 319911 bytes).
+Output written on uklvcposter.pdf (1 page, 319910 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  23 compressed objects within 1 object stream
